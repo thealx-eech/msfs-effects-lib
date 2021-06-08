@@ -1,0 +1,1 @@
+# msfs-effects-lib
