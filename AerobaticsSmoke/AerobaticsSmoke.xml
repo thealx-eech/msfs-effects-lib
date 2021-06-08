@@ -1,0 +1,8 @@
+<Project Version="2" Name="AerobaticsSmoke" FolderName="Packages">
+	<OutputDirectory>.</OutputDirectory>
+	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
+	<Packages>
+		<Package>PackageDefinitions\touchingcloud-effects-aerobatics-smoke.xml</Package>
+	</Packages>
+</Project>
+
