@@ -28,6 +28,13 @@ or from effect XML file - InstanceId of VisualEffect.VisualEffect node (very fir
 4. You can load project in MSFS Effects Editor to apply labels replacement and effect parameters adjustment, then build package and repeate step #3
 5. To avoid conflicts, it is recommended to update effect GUIDs and rebuild package
 
+
+Effects editor tutorials:
+
+Basic ribbon smoke https://youtu.be/ohru5jw5hOo
+
+Exhaust smoke https://youtu.be/UtqtVRw8F6Q
+
     
 # For modders - How to attach effect to installed aircraft
 1. Find exterior model glTF file, open it in text editor (like Notepad++)
@@ -94,3 +101,7 @@ You can attach same affect to different nodes, or different effects to same node
   1.8 Affected by wind: yes
 
   1.9 Work in multiplayer: unconfirmed
+  
+  1.10 Meterial: ContrailSmoke, ContrailSmokeNear
+  
+  1.11 Demo: https://youtu.be/sMKvOmudbyI
