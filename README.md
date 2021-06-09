@@ -86,7 +86,15 @@ You can attach same affect to different nodes, or different effects to same node
 
   1.1 Type: ribbon + particles
 
-  1.2 Included effects: 4 (red, green, blue, white)
+  1.2 Included effects: 4
+  
+  red: {C4A0D249-1F33-4581-99C4-2DF4FC625C6F}
+  
+  green: {AE15BEB6-BD51-4B22-9542-287E27DC26BA}
+  
+  blue: {9CA5EFF5-30EE-4978-83FF-3517689E0C33}
+  
+  white: {600252C7-538F-45A7-9B57-58C7D6DF4B7C}
 
   1.3 Rate: varialbe (2 particles per each 10 meters)
 
