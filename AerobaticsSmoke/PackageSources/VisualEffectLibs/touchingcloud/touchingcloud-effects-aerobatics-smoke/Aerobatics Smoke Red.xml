@@ -79,8 +79,8 @@
         </VisualEffect.PowOperation>
         <VisualEffect.MultiplyOperation InstanceId="{0E54AD7B-9633-49F3-8DBD-6D83BF5237EB}">
             <OutputValue>{48CF3A44-1ED5-439D-87E6-A1649738FC84}</OutputValue>
-            <xVariant>{AA97A6B0-79A5-4618-970E-414800E041F8}, 0.000000</xVariant>
-            <yVariant>{9738877A-206B-43A3-A5BD-536A46AC016B}, 0.000000</yVariant>
+            <xVariant>{9738877A-206B-43A3-A5BD-536A46AC016B}, 0.000000</xVariant>
+            <yVariant>{C497BCD5-D289-42CF-A81C-E288D7F7E2B5}, 0.000000</yVariant>
         </VisualEffect.MultiplyOperation>
         <VisualEffect.MultiplyOperation InstanceId="{E655B954-DE22-48F6-9594-9D82D03D8908}">
             <OutputValue>{9FECA216-AF57-4645-A62A-94C69473E49F}</OutputValue>
@@ -122,7 +122,7 @@
         <VisualEffect.MultiplyOperation InstanceId="{A2BFF4E9-D390-4394-851B-DC508FE6F4DE}">
             <OutputValue>{CABCDF5F-71F4-4514-89A7-DFBE70BE345F}</OutputValue>
             <xVariant>{24AD0FD4-1EF1-430D-B49A-3452C8AAAB41}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, 100.000000</yVariant>
+            <yVariant>{07F400BB-ABAC-4745-899F-AD2C03CB6980}, 0.000000</yVariant>
         </VisualEffect.MultiplyOperation>
         <VisualEffect.AddOperation InstanceId="{B9576237-396D-4CDD-922C-464D7BE05275}">
             <OutputValue>{D0B5E012-1289-4842-9B5F-AA383A058944}</OutputValue>
@@ -130,36 +130,6 @@
             <yVariant>{00000000-0000-0000-0000-000000000000}, -0.005000</yVariant>
         </VisualEffect.AddOperation>
         <SimEdition.CommentNode InstanceId="{598C93CA-8B1D-403B-8224-3392FB753B14}" id="VELOCITY"/>
-        <VisualEffect.MultiplyOperation InstanceId="{E4798B8B-B42F-4D0B-B56A-5D0F747AA5C9}">
-            <OutputValue>{CCCFFFF1-58CC-4B1F-A482-1849924EFBF0}</OutputValue>
-            <xVariant>{E0B07F2F-B7CE-4500-95CA-7ACA0FF8BD99}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, 0.500000</yVariant>
-        </VisualEffect.MultiplyOperation>
-        <VisualEffect.MultiplyOperation InstanceId="{11797F7C-09C4-463E-93F2-943AB0020BFA}">
-            <OutputValue>{DD7B6191-73B5-405B-9BB1-BA21ABE40D03}</OutputValue>
-            <xVariant>{F2AFD231-A434-4D10-8B45-4A28A9571BBA}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, 0.500000</yVariant>
-        </VisualEffect.MultiplyOperation>
-        <VisualEffect.GetSimVar InstanceId="{E2CE5B1C-C971-4AA9-9626-563F41B10187}">
-            <OutputValue>{E0B07F2F-B7CE-4500-95CA-7ACA0FF8BD99}</OutputValue>
-            <SimvarType>VELOCITY BODY X</SimvarType>
-            <Unit>79</Unit>
-        </VisualEffect.GetSimVar>
-        <VisualEffect.GetSimVar InstanceId="{3CD3C262-EF4A-4044-939B-7DD35D8998B1}">
-            <OutputValue>{F2AFD231-A434-4D10-8B45-4A28A9571BBA}</OutputValue>
-            <SimvarType>VELOCITY BODY Y</SimvarType>
-            <Unit>79</Unit>
-        </VisualEffect.GetSimVar>
-        <VisualEffect.MultiplyOperation InstanceId="{ECE5E70C-AEDD-4E6D-B19A-E1AC016F7055}">
-            <OutputValue>{CAF05E3C-5415-43BD-8330-EB68DF240E9D}</OutputValue>
-            <xVariant>{8D230145-D3E6-4073-BF29-5F87B655D348}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, 0.500000</yVariant>
-        </VisualEffect.MultiplyOperation>
-        <VisualEffect.GetSimVar InstanceId="{54C94D65-1043-4E24-AA0E-CE0E6F1A1ED2}">
-            <OutputValue>{8D230145-D3E6-4073-BF29-5F87B655D348}</OutputValue>
-            <SimvarType>VELOCITY BODY Z</SimvarType>
-            <Unit>79</Unit>
-        </VisualEffect.GetSimVar>
         <VisualEffect.Vector3 InstanceId="{21184645-A3F9-4DC8-9CF9-21E923C6EA72}">
             <OutputValue>{01170A05-B724-40C4-AF1A-7E5F40E32921}</OutputValue>
         </VisualEffect.Vector3>
@@ -208,7 +178,7 @@
         </VisualEffect.MultiplyOperation>
         <VisualEffect.MultiplyOperation InstanceId="{C888FCDE-B0CB-4CF2-A124-9A3805EA5361}">
             <OutputValue>{BE360745-15A2-458D-BFAD-E321FDBC1435}</OutputValue>
-            <xVariant>{AA97A6B0-79A5-4618-970E-414800E041F8}, 0.000000</xVariant>
+            <xVariant>{C497BCD5-D289-42CF-A81C-E288D7F7E2B5}, 0.000000</xVariant>
             <yVariant>{00000000-0000-0000-0000-000000000000}, 0.250000</yVariant>
         </VisualEffect.MultiplyOperation>
         <VisualEffect.Output InstanceId="{B18A28FF-AB32-45F7-9B37-E89BB43CE033}">
@@ -257,7 +227,7 @@
         <VisualEffect.AddOperation InstanceId="{BA682495-CF14-4166-B746-4332CA272EAC}">
             <OutputValue>{F58E79D3-7D46-4288-B123-5983DE374430}</OutputValue>
             <xVariant>{9FECA216-AF57-4645-A62A-94C69473E49F}, 0.000000</xVariant>
-            <yVariant>{8AD041D7-EC07-4F9D-BA2D-E440B37164F6}, 0.000000</yVariant>
+            <yVariant>{00000000-0000-0000-0000-000000000000}, 1.000000</yVariant>
         </VisualEffect.AddOperation>
         <VisualEffect.AddOperation InstanceId="{3A0747C6-C33C-4805-97B6-4DEE5FD03CCF}">
             <OutputValue>{BDE5BBEA-B95E-4D9B-8F27-D7FAD3BAA291}</OutputValue>
@@ -273,21 +243,6 @@
             <xVariant>{440BD84E-1C96-461D-AD24-191A0FBD20C4}, 0.000000</xVariant>
             <yVariant>{00000000-0000-0000-0000-000000000000}, 2.000000</yVariant>
         </VisualEffect.MultiplyOperation>
-        <VisualEffect.GetSimVar InstanceId="{A4FE26AE-09DC-4F70-B3BE-D771C82BA9CD}">
-            <OutputValue>{68D5C021-F8F8-4B7B-96DD-744BF99CF92B}</OutputValue>
-            <SimvarType>LIGHT WING</SimvarType>
-            <Unit>44</Unit>
-        </VisualEffect.GetSimVar>
-        <VisualEffect.MultiplyOperation InstanceId="{A6473036-AF4E-4BA4-ACB6-96C6064D459B}">
-            <OutputValue>{AA97A6B0-79A5-4618-970E-414800E041F8}</OutputValue>
-            <xVariant>{C497BCD5-D289-42CF-A81C-E288D7F7E2B5}, 0.000000</xVariant>
-            <yVariant>{68D5C021-F8F8-4B7B-96DD-744BF99CF92B}, 0.000000</yVariant>
-        </VisualEffect.MultiplyOperation>
-        <VisualEffect.MultiplyOperation InstanceId="{53C7294A-393C-4EC5-9445-5B5787DF5B72}">
-            <OutputValue>{8AD041D7-EC07-4F9D-BA2D-E440B37164F6}</OutputValue>
-            <xVariant>{68D5C021-F8F8-4B7B-96DD-744BF99CF92B}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, 1.000000</yVariant>
-        </VisualEffect.MultiplyOperation>
         <SimEdition.CommentNode InstanceId="{F174D7B0-4F69-4599-8E7A-3BC35B618095}" id="ROTATE"/>
         <VisualEffect.GetSimVar InstanceId="{C481F9EB-E179-4327-820E-AE44CCD42C26}">
             <OutputValue>{5D7C54B2-60F6-444C-B96C-C5B77BBD7560}</OutputValue>
@@ -301,7 +256,7 @@
         </VisualEffect.Vector3>
         <VisualEffect.MultiplyOperation InstanceId="{A20F3AFB-FB08-403F-B586-768E58F03B5B}">
             <OutputValue>{D9192102-5E73-41CF-8A3E-92E3CC1C334C}</OutputValue>
-            <xVariant>{00000000-0000-0000-0000-000000000000}, 175.000000</xVariant>
+            <xVariant>{00000000-0000-0000-0000-000000000000}, 133.000000</xVariant>
             <yVariant>{5D7C54B2-60F6-444C-B96C-C5B77BBD7560}, 0.000000</yVariant>
         </VisualEffect.MultiplyOperation>
         <VisualEffect.MultiplyOperation InstanceId="{10621E85-6A03-407F-BED5-5901EF3A1309}">
@@ -314,5 +269,15 @@
             <xVariant>{50068604-4A0A-4C18-90A3-AE7A0E2E0FB7}, 0.000000</xVariant>
             <yVariant>{00000000-0000-0000-0000-000000000000}, 1.500000</yVariant>
         </VisualEffect.AddOperation>
+        <VisualEffect.AddOperation InstanceId="{D8883A59-7BB8-43F5-B906-4875A70FA979}">
+            <OutputValue>{07F400BB-ABAC-4745-899F-AD2C03CB6980}</OutputValue>
+            <xVariant>{00000000-0000-0000-0000-000000000000}, 50.000000</xVariant>
+            <yVariant>{66BC222C-4C60-4A0C-9F74-FD734053C193}, 0.000000</yVariant>
+        </VisualEffect.AddOperation>
+        <VisualEffect.MultiplyOperation InstanceId="{0E1FF3FD-E8B6-4F93-9415-46879634E443}">
+            <OutputValue>{66BC222C-4C60-4A0C-9F74-FD734053C193}</OutputValue>
+            <xVariant>{C497BCD5-D289-42CF-A81C-E288D7F7E2B5}, 0.000000</xVariant>
+            <yVariant>{00000000-0000-0000-0000-000000000000}, 50.000000</yVariant>
+        </VisualEffect.MultiplyOperation>
     </WorldBase.Flight>
 </SimBase.Document>

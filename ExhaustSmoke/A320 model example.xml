@@ -1,0 +1,19 @@
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+		<Component ID="FX_EXHAUST_SMOKE_1">
+			<OverrideTemplateParameters>
+				<FX_CODE>(A:TURB ENG N1:1, percent) 50 &gt;</FX_CODE>
+				<FX_GUID>{A3684CD6-7051-483A-B975-E580A0A180DC}</FX_GUID>
+			</OverrideTemplateParameters>
+			<Component ID="FX_EXHAUST_SMOKE_1_NODE" Node="VFX_Exhaust_Engine_1">
+				<UseTemplate Name="ASOBO_GT_FX"/>
+			</Component>
+		</Component>		
+		<Component ID="FX_EXHAUST_SMOKE_2">
+			<OverrideTemplateParameters>
+				<FX_CODE>(A:TURB ENG N1:2, percent) 50 &gt;</FX_CODE>
+				<FX_GUID>{5419ABAD-8066-4A25-B5DF-030F676ADEEA}</FX_GUID>
+			</OverrideTemplateParameters>
+			<Component ID="FX_EXHAUST_SMOKE_2_NODE" Node="VFX_Exhaust_Engine_2">
+				<UseTemplate Name="ASOBO_GT_FX"/>
+			</Component>
+		</Component>

@@ -84,7 +84,7 @@ You can attach same affect to different nodes, or different effects to same node
 
 1. AerobaticsSmoke
 
-  1.1 Type: ribbon + particles
+  1.1 Type: ribbon + sprites
 
   1.2 Included effects: 4
   
@@ -98,7 +98,7 @@ You can attach same affect to different nodes, or different effects to same node
 
   1.3 Rate: varialbe (2 particles per each 10 meters)
 
-  1.4 SimVar trigger: LIGHT WING
+  1.4 SimVar trigger: none
 
   1.5 Capacity: 4000 (reached at airspeed ~ 500kn)
 
@@ -113,3 +113,61 @@ You can attach same affect to different nodes, or different effects to same node
   1.10 Meterial: ContrailSmoke, ContrailSmokeNear
   
   1.11 Demo: https://youtu.be/sMKvOmudbyI
+  
+2. TireSpray
+
+  1.1 Type: sprites
+  
+  1.2 Included effects: 1 
+  
+  tirespray: {2C46225E-CCF6-418E-8609-F532266C1872}
+  
+  1.3 Rate: variable (1 per meter)
+  
+  1.4 SimVar trigger: none
+  
+  1.5 Capacity: 1000
+  
+  1.6 Rendering distance: 2000m
+  
+  1.7 Lifetime 10s
+  
+  1.8 Affected by wind: yes
+  
+  1.9 Work in multiplayer: no
+ 
+  1.10 Material: ContrailSmokeNear
+  
+  1.11 Demo: https://youtu.be/4v5KaaWYfdA
+
+3. EngineExhaust
+
+  1.1 Type: sprites
+  
+  1.2 Included effects: 4 
+  
+  eng1: {A3684CD6-7051-483A-B975-E580A0A180DC}
+  
+  eng2: {5419ABAD-8066-4A25-B5DF-030F676ADEEA}
+  
+  eng3: {3012A75D-0335-4AB1-9161-4E0B0883ED8E}
+  
+  eng4: {818AC40F-F402-40AB-86F2-8E7305C336DA}
+  
+  1.3 Rate: 20/s
+  
+  1.4 SimVar trigger: turb/piston engine RPM > 80%
+  
+  1.5 Capacity: 2000
+  
+  1.6 Rendering distance: 2000m
+  
+  1.7 Lifetime 30s
+  
+  1.8 Affected by wind: yes
+  
+  1.9 Work in multiplayer: unconfirmed
+ 
+  1.10 Material: ContrailSmokeNear
+  
+  1.11 Demo: https://youtu.be/76QKM8j0VCg
