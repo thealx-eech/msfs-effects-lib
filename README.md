@@ -75,14 +75,14 @@ All ID should be unique
 
 You can attach same affect to different nodes, or different effects to same node
 
-6. Copy content of "Packages" into your Community folder
+6. Copy content of "Packages" into your Community folder (for example "touchingcloud-effect-exhaust-smoke")
 
 7. Start the game, to activate effect - use mentioned SimVar trigger by gauge script, simconnect, or existing hotkey
 
 
 # Table of content:
 
-1. AerobaticsSmoke
+# 1. AerobaticsSmoke
 
   1.1 Type: ribbon + sprites
 
@@ -114,13 +114,15 @@ You can attach same affect to different nodes, or different effects to same node
   
   1.11 Demo: https://youtu.be/sMKvOmudbyI
   
-2. TireSpray
+# 2. TireSpray
 
   1.1 Type: sprites
   
-  1.2 Included effects: 1 
+  1.2 Included effects: 2 
   
   tirespray: {2C46225E-CCF6-418E-8609-F532266C1872}
+  
+  tiresmoke: {A8381FF8-45B9-4B04-A070-FE6140074396}
   
   1.3 Rate: variable (1 per meter)
   
@@ -130,7 +132,7 @@ You can attach same affect to different nodes, or different effects to same node
   
   1.6 Rendering distance: 2000m
   
-  1.7 Lifetime 10s
+  1.7 Lifetime 10s/5s
   
   1.8 Affected by wind: yes
   
@@ -138,9 +140,9 @@ You can attach same affect to different nodes, or different effects to same node
  
   1.10 Material: ContrailSmokeNear
   
-  1.11 Demo: https://youtu.be/4v5KaaWYfdA
+  1.11 Demo: https://youtu.be/hOQgkqXoTsw https://youtu.be/FVipNJtf8nA
 
-3. EngineExhaust
+# 3. EngineExhaust
 
   1.1 Type: sprites
   

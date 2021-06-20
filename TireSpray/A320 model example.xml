@@ -1,54 +1,85 @@
-		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
-		<Component ID="FX_TIRE_SPRAY_FRONT">
+<!-- <Behaviors> -->
+
+		<!-- <Include ModelBehaviorFile="Asobo\Generic\FX.xml"/> -->
+
+		<Component ID="FX_TIRE_SPRAY">
 			<OverrideTemplateParameters>
-				<FX_CODE>(A:GPS GROUND SPEED, knots) 1 &gt; (A:GEAR ANIMATION POSITION:0, percent) 51 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &gt; &&</FX_CODE>
 				<FX_GUID>{2C46225E-CCF6-418E-8609-F532266C1872}</FX_GUID>
 				<ENABLE_SURFACE_TYPE_0>CONCRETE</ENABLE_SURFACE_TYPE_0>
 				<ENABLE_SURFACE_TYPE_1>ASPHALT</ENABLE_SURFACE_TYPE_1>
 				<ENABLE_SURFACE_TYPE_2>BITUMINUS</ENABLE_SURFACE_TYPE_2>
-				<ENABLE_SURFACE_TYPE_3>MACADAM</ENABLE_SURFACE_TYPE_3>
 				<ENABLE_SURFACE_TYPE_4>TARMAC</ENABLE_SURFACE_TYPE_4>
 			</OverrideTemplateParameters>
 			<Component ID="FX_TIRE_SPRAY_FRONT_NODE_1" Node="fx_tire_contactPoint_center_left">
-				<UseTemplate Name="ASOBO_GT_FX"/>
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GPS GROUND SPEED, knots) 1 &gt; (A:GEAR ANIMATION POSITION:0, percent) 51 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &gt; &&</FX_CODE>
+				</UseTemplate>
 			</Component>
 			<Component ID="FX_TIRE_SPRAY_FRONT_NODE_2" Node="fx_tire_contactPoint_center_right">
-				<UseTemplate Name="ASOBO_GT_FX"/>
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GPS GROUND SPEED, knots) 1 &gt; (A:GEAR ANIMATION POSITION:0, percent) 51 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &gt; &&</FX_CODE>
+				</UseTemplate>
+			</Component>
+			<Component ID="FX_TIRE_SPRAY_LEFT_NODE_1" Node="fx_tire_contactPoint_left_in">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GPS GROUND SPEED, knots) 1 &gt; (A:GEAR ANIMATION POSITION:1, percent) 51 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &gt; &&</FX_CODE>
+				</UseTemplate>
+			</Component>
+			<Component ID="FX_TIRE_SPRAY_LEFT_NODE_2" Node="fx_tire_contactPoint_left_out">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GPS GROUND SPEED, knots) 1 &gt; (A:GEAR ANIMATION POSITION:1, percent) 51 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &gt; &&</FX_CODE>
+				</UseTemplate>
+			</Component>
+			<Component ID="FX_TIRE_SPRAY_RIGHT_NODE_1" Node="fx_tire_contactPoint_right_in">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GPS GROUND SPEED, knots) 1 &gt; (A:GEAR ANIMATION POSITION:2, percent) 51 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &gt; &&</FX_CODE>
+				</UseTemplate>
+			</Component>
+			<Component ID="FX_TIRE_SPRAY_RIGHT_NODE_2" Node="fx_tire_contactPoint_right_out">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GPS GROUND SPEED, knots) 1 &gt; (A:GEAR ANIMATION POSITION:2, percent) 51 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &gt; &&</FX_CODE>
+				</UseTemplate>
 			</Component>
 		</Component>
 		
-		<Component ID="FX_TIRE_SPRAY_LEFT">
-			<OverrideTemplateParameters>
-				<FX_CODE>(A:GPS GROUND SPEED, knots) 1 &gt; (A:GEAR ANIMATION POSITION:1, percent) 51 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &gt; &&</FX_CODE>
-				<FX_GUID>{2C46225E-CCF6-418E-8609-F532266C1872}</FX_GUID>
+		<Component ID="FX_TIRE_SMOKE">
+			<DefaultTemplateParameters>
+				<FX_GUID>{A8381FF8-45B9-4B04-A070-FE6140074396}</FX_GUID>
 				<ENABLE_SURFACE_TYPE_0>CONCRETE</ENABLE_SURFACE_TYPE_0>
 				<ENABLE_SURFACE_TYPE_1>ASPHALT</ENABLE_SURFACE_TYPE_1>
 				<ENABLE_SURFACE_TYPE_2>BITUMINUS</ENABLE_SURFACE_TYPE_2>
-				<ENABLE_SURFACE_TYPE_3>MACADAM</ENABLE_SURFACE_TYPE_3>
 				<ENABLE_SURFACE_TYPE_4>TARMAC</ENABLE_SURFACE_TYPE_4>
-			</OverrideTemplateParameters>
-			<Component ID="FX_TIRE_SPRAY_LEFT_NODE_1" Node="fx_tire_contactPoint_left_in">
-				<UseTemplate Name="ASOBO_GT_FX"/>
+			</DefaultTemplateParameters>
+			<Component ID="FX_TIRE_SMOKE_LEFT_NODE_1" Node="fx_tire_contactPoint_left_in">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GEAR ANIMATION POSITION:1, percent) 51 &gt; (A:GPS GROUND SPEED, knots) 1 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &lt; && (A:GEAR SKIDDING FACTOR:1, Keyframe) 50 &gt; && </FX_CODE>
+				</UseTemplate>
 			</Component>
-			<Component ID="FX_TIRE_SPRAY_LEFT_NODE_2" Node="fx_tire_contactPoint_left_out">
-				<UseTemplate Name="ASOBO_GT_FX"/>
+			<Component ID="FX_TIRE_SMOKE_LEFT_NODE_2" Node="fx_tire_contactPoint_left_out">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GEAR ANIMATION POSITION:1, percent) 51 &gt; (A:GPS GROUND SPEED, knots) 1 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &lt; && (A:GEAR SKIDDING FACTOR:1, Keyframe) 50 &gt;</FX_CODE>
+				</UseTemplate>
+			</Component>
+			<Component ID="FX_TIRE_SMOKE_RIGHT_NODE_1" Node="fx_tire_contactPoint_right_in">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GEAR ANIMATION POSITION:2, percent) 51 &gt; (A:GPS GROUND SPEED, knots) 1 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &lt; && (A:GEAR SKIDDING FACTOR:2, Keyframe) 50 &gt;</FX_CODE>
+				</UseTemplate>
+			</Component>
+			<Component ID="FX_TIRE_SMOKE_RIGHT_NODE_2" Node="fx_tire_contactPoint_right_out">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GEAR ANIMATION POSITION:2, percent) 51 &gt; (A:GPS GROUND SPEED, knots) 1 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &lt; && (A:GEAR SKIDDING FACTOR:2, Keyframe) 50 &gt;</FX_CODE>
+				</UseTemplate>
+			</Component>
+			<Component ID="FX_TIRE_SMOKE_FRONT_NODE_1" Node="fx_tire_contactPoint_center_left">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GEAR ANIMATION POSITION:0, percent) 51 &gt; (A:GPS GROUND SPEED, knots) 1 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &lt; && (A:GEAR SKIDDING FACTOR:0, Keyframe) 50 &gt;</FX_CODE>
+				</UseTemplate>
+			</Component>
+			<Component ID="FX_TIRE_SMOKE_FRONT_NODE_2" Node="fx_tire_contactPoint_center_right">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GEAR ANIMATION POSITION:0, percent) 51 &gt; (A:GPS GROUND SPEED, knots) 1 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &lt; && (A:GEAR SKIDDING FACTOR:0, Keyframe) 50 &gt;</FX_CODE>
+				</UseTemplate>
 			</Component>
 		</Component>
-
-		<Component ID="FX_TIRE_SPRAY_RIGHT">
-			<OverrideTemplateParameters>
-				<FX_CODE>(A:GPS GROUND SPEED, knots) 1 &gt; (A:GEAR ANIMATION POSITION:2, percent) 51 &gt; && (A:AMBIENT PRECIP RATE, percent) 10 &gt; &&</FX_CODE>
-				<FX_GUID>{2C46225E-CCF6-418E-8609-F532266C1872}</FX_GUID>
-				<ENABLE_SURFACE_TYPE_0>CONCRETE</ENABLE_SURFACE_TYPE_0>
-				<ENABLE_SURFACE_TYPE_1>ASPHALT</ENABLE_SURFACE_TYPE_1>
-				<ENABLE_SURFACE_TYPE_2>BITUMINUS</ENABLE_SURFACE_TYPE_2>
-				<ENABLE_SURFACE_TYPE_3>MACADAM</ENABLE_SURFACE_TYPE_3>
-				<ENABLE_SURFACE_TYPE_4>TARMAC</ENABLE_SURFACE_TYPE_4>
-			</OverrideTemplateParameters>
-			<Component ID="FX_TIRE_SPRAY_RIGHT_NODE_1" Node="fx_tire_contactPoint_right_in">
-				<UseTemplate Name="ASOBO_GT_FX"/>
-			</Component>
-			<Component ID="FX_TIRE_SPRAY_RIGHT_NODE_2" Node="fx_tire_contactPoint_left_out">
-				<UseTemplate Name="ASOBO_GT_FX"/>
-			</Component>
-		</Component>
+		
+<!-- </Behaviors> -->
