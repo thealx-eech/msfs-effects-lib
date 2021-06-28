@@ -108,7 +108,7 @@ You can attach same affect to different nodes, or different effects to same node
 
   1.8 Affected by wind: yes
 
-  1.9 Work in multiplayer: unconfirmed
+  1.9 Work in multiplayer: yes
   
   1.10 Meterial: ContrailSmoke, ContrailSmokeNear
   
@@ -116,37 +116,37 @@ You can attach same affect to different nodes, or different effects to same node
   
 # 2. TireSpray
 
-  1.1 Type: sprites
+  2.1 Type: sprites
   
-  1.2 Included effects: 2 
+  2.2 Included effects: 2 
   
   tirespray: {2C46225E-CCF6-418E-8609-F532266C1872}
   
   tiresmoke: {A8381FF8-45B9-4B04-A070-FE6140074396}
   
-  1.3 Rate: variable (1 per meter)
+  2.3 Rate: variable (1 per meter)
   
-  1.4 SimVar trigger: none
+  2.4 SimVar trigger: none
   
-  1.5 Capacity: 1000
+  2.5 Capacity: 1000
   
-  1.6 Rendering distance: 2000m
+  2.6 Rendering distance: 2000m
   
-  1.7 Lifetime 10s/5s
+  2.7 Lifetime 10s/5s
   
-  1.8 Affected by wind: yes
+  2.8 Affected by wind: yes
   
-  1.9 Work in multiplayer: no
+  2.9 Work in multiplayer: no
  
-  1.10 Material: ContrailSmokeNear
+  2.10 Material: ContrailSmokeNear
   
-  1.11 Demo: https://youtu.be/hOQgkqXoTsw https://youtu.be/FVipNJtf8nA
+  2.11 Demo: https://youtu.be/hOQgkqXoTsw https://youtu.be/FVipNJtf8nA
 
 # 3. EngineExhaust
 
-  1.1 Type: sprites
+  3.1 Type: sprites
   
-  1.2 Included effects: 4 
+  3.2 Included effects: 4 
   
   eng1: {A3684CD6-7051-483A-B975-E580A0A180DC}
   
@@ -156,20 +156,47 @@ You can attach same affect to different nodes, or different effects to same node
   
   eng4: {818AC40F-F402-40AB-86F2-8E7305C336DA}
   
-  1.3 Rate: 20/s
+  3.3 Rate: 20/s
   
-  1.4 SimVar trigger: turb/piston engine RPM > 80%
+  3.4 SimVar trigger: turb/piston engine RPM > 80%
   
-  1.5 Capacity: 2000
+  3.5 Capacity: 2000
   
-  1.6 Rendering distance: 2000m
+  3.6 Rendering distance: 2000m
   
-  1.7 Lifetime 30s
+  3.7 Lifetime 30s
   
-  1.8 Affected by wind: yes
+  3.8 Affected by wind: yes
   
-  1.9 Work in multiplayer: unconfirmed
+  3.9 Work in multiplayer: unconfirmed
  
-  1.10 Material: ContrailSmokeNear
+  3.10 Material: ContrailSmokeNear
   
-  1.11 Demo: https://youtu.be/76QKM8j0VCg
+  3.11 Demo: https://youtu.be/76QKM8j0VCg
+
+# 4. Downwash
+
+  4.1 Type: sprites
+  
+  4.2 Included effects: 1
+  
+  {936C9B32-A095-47F6-9619-15D8EE073614}
+  
+  4.3 Rate: 2/s
+  
+  4.4 SimVar trigger: turb/piston engine RPM > 0 && altitude < 50
+  
+  4.5 Capacity: 100
+  
+  4.6 Rendering distance: 2000m
+  
+  4.7 Lifetime 2s
+  
+  4.8 Affected by wind: no
+  
+  4.9 Work in multiplayer: unconfirmed
+ 
+  4.10 Material: ContrailSmokeNear
+  
+  4.11 Demo: https://youtu.be/3Zlf6Wc92qc
+ 

@@ -1,0 +1,40 @@
+<!-- <Behaviors> -->
+
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+
+		<Component ID="DOWNWASH">
+			<Component ID="DOWNWASH_1_NODE" Node="FX_EXHAUST_LEFT">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>1</FX_CODE>
+					<FX_ROTATION_OFFSET_H>0.0</FX_ROTATION_OFFSET_B>
+					<FX_GUID>{936C9B32-A095-47F6-9619-15D8EE073614}</FX_GUID>
+					<FX_NAME>FX_EXHAUST_LEFT</FX_NAME>
+				</UseTemplate>
+			</Component>
+			<Component ID="DOWNWASH_2_NODE" Node="FX_EXHAUST_LEFT">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>1</FX_CODE>
+					<FX_ROTATION_OFFSET_H>90</FX_ROTATION_OFFSET_B>
+					<FX_GUID>{936C9B32-A095-47F6-9619-15D8EE073614}</FX_GUID>
+					<FX_NAME>FX_EXHAUST_LEFT</FX_NAME>
+				</UseTemplate>
+			</Component>
+			<Component ID="DOWNWASH_3_NODE" Node="FX_EXHAUST_LEFT">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>1</FX_CODE>
+					<FX_ROTATION_OFFSET_H>180</FX_ROTATION_OFFSET_B>
+					<FX_GUID>{936C9B32-A095-47F6-9619-15D8EE073614}</FX_GUID>
+					<FX_NAME>FX_EXHAUST_LEFT</FX_NAME>
+				</UseTemplate>
+			</Component>
+			<Component ID="DOWNWASH_4_NODE" Node="FX_EXHAUST_LEFT">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>1</FX_CODE>
+					<FX_ROTATION_OFFSET_H>270</FX_ROTATION_OFFSET_B>
+					<FX_GUID>{936C9B32-A095-47F6-9619-15D8EE073614}</FX_GUID>
+					<FX_NAME>FX_EXHAUST_LEFT</FX_NAME>
+				</UseTemplate>
+			</Component>
+		</Component>		
+
+<!-- </Behaviors> -->
