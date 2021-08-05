@@ -4,6 +4,9 @@ Effects library for Microsoft Flight Simulator
 
 License: MIT, free to use in any freeware or payware projects. No credits required.
 
+# 4.08.2021
+# PROJECT FROZEN
+# until ASOBO fix stability issues of FX editor
 
 # For developers - How to inject into model
 1. Insert smoke nodes into aircraft exterior model (no animation required for them)
@@ -24,9 +27,10 @@ License: MIT, free to use in any freeware or payware projects. No credits requir
 Effect GUID can be taken from MSFS Effects editor > Templates/Instances debugger window > Asset Packages tab
 or from effect XML file - InstanceId of VisualEffect.VisualEffect node (very first GUID in the file)
 
-3. Copy "VisualEffectLibs" folder into your aircraft folder, remove effects you don't need, regenerate JSON files
+3.1 Copy "VisualEffectLibs" folder into your aircraft folder, remove effects you don't need, regenerate JSON files
 4. You can load project in MSFS Effects Editor to apply labels replacement and effect parameters adjustment, then build package and repeate step #3
-5. To avoid conflicts, it is recommended to update effect GUIDs and rebuild package
+5. Rename "touchingcloud" folder, to avoid conflicts with other aircraft using same effects pack
+6. It is also recommended to update effect GUIDs and rebuild package
 
 
 Effects editor tutorials:
@@ -82,7 +86,7 @@ You can attach same affect to different nodes, or different effects to same node
 
 # Table of content:
 
-# 1. AerobaticsSmoke
+# 1. AerobaticsSmoke (SU5 compatible)
 
   1.1 Type: ribbon + sprites
 
@@ -96,11 +100,15 @@ You can attach same affect to different nodes, or different effects to same node
   
   white: {600252C7-538F-45A7-9B57-58C7D6DF4B7C}
 
+  black: {F5B8D8FA-C9AB-4D3A-A9F7-F1C2AB452CA3}
+  
+  orange: {20C1D0CF-40F8-4ED9-A2C7-E008FFE1F6AF}
+
   1.3 Rate: varialbe (2 particles per each 10 meters)
 
   1.4 SimVar trigger: none
 
-  1.5 Capacity: 4000 (reached at airspeed ~ 500kn)
+  1.5 Capacity: 2000 (reached at airspeed ~ 500kn)
 
   1.6 Rendering distance: 5000m
 
@@ -114,15 +122,15 @@ You can attach same affect to different nodes, or different effects to same node
   
   1.11 Demo: https://youtu.be/sMKvOmudbyI
   
-# 2. TireSpray
+# 2. TyreSpray (SU5 incompatible)
 
   2.1 Type: sprites
   
   2.2 Included effects: 2 
   
-  tirespray: {2C46225E-CCF6-418E-8609-F532266C1872}
+  tyrespray: {2C46225E-CCF6-418E-8609-F532266C1872}
   
-  tiresmoke: {A8381FF8-45B9-4B04-A070-FE6140074396}
+  tyresmoke: {A8381FF8-45B9-4B04-A070-FE6140074396}
   
   2.3 Rate: variable (1 per meter)
   
@@ -142,7 +150,7 @@ You can attach same affect to different nodes, or different effects to same node
   
   2.11 Demo: https://youtu.be/hOQgkqXoTsw https://youtu.be/FVipNJtf8nA
 
-# 3. EngineExhaust
+# 3. EngineExhaust (SU5 incompatible)
 
   3.1 Type: sprites
   
@@ -174,7 +182,7 @@ You can attach same affect to different nodes, or different effects to same node
   
   3.11 Demo: https://youtu.be/76QKM8j0VCg
 
-# 4. Downwash
+# 4. Downwash (SU5 incompatible)
 
   4.1 Type: sprites
   

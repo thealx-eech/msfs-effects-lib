@@ -1,5 +1,7 @@
 <VisualEffectLibrary Version="1.0.0">
 	<VisualEffect File="Aerobatics Smoke Green"/>
+	<VisualEffect File="Aerobatics Smoke Orange"/>
+	<VisualEffect File="Aerobatics Smoke Black"/>
 	<VisualEffect File="Aerobatics Smoke Blue"/>
 	<VisualEffect File="Aerobatics Smoke White"/>
 	<VisualEffect File="Aerobatics Smoke Red"/>
