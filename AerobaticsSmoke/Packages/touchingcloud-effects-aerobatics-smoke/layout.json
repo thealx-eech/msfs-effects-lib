@@ -1,39 +1,129 @@
 {
   "content": [
     {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Black NEAR.spb",
+      "size": 5134,
+      "date": 132744900616686095
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Black NEAR_edition.spb",
+      "size": 7351,
+      "date": 132744900616923255
+    },
+    {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Black.spb",
-      "size": 6489,
-      "date": 132726284456306983
+      "size": 6216,
+      "date": 132744900617174589
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Black_edition.spb",
+      "size": 13925,
+      "date": 132744900617723088
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Blue NEAR.spb",
+      "size": 5132,
+      "date": 132744900617803073
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Blue NEAR_edition.spb",
+      "size": 7350,
+      "date": 132744900618073128
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Blue.spb",
-      "size": 6487,
-      "date": 132726284456606995
+      "size": 6214,
+      "date": 132744900618163135
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Blue_edition.spb",
+      "size": 13923,
+      "date": 132744900618393135
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Green NEAR.spb",
+      "size": 5134,
+      "date": 132744900618473128
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Green NEAR_edition.spb",
+      "size": 7351,
+      "date": 132744900618613083
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Green.spb",
-      "size": 6489,
-      "date": 132726284456976983
+      "size": 6216,
+      "date": 132744900618693144
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Green_edition.spb",
+      "size": 13925,
+      "date": 132744900618933090
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Orange NEAR.spb",
+      "size": 5112,
+      "date": 132744900619013086
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Orange NEAR_edition.spb",
+      "size": 7353,
+      "date": 132744900619153127
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Orange.spb",
-      "size": 6423,
-      "date": 132726284457256983
+      "size": 6170,
+      "date": 132744900619233121
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Orange_edition.spb",
+      "size": 13927,
+      "date": 132744900619463109
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Red NEAR.spb",
+      "size": 5130,
+      "date": 132744900619553109
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Red NEAR_edition.spb",
+      "size": 7347,
+      "date": 132744900619683119
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Red.spb",
-      "size": 6485,
-      "date": 132726284457546994
+      "size": 6212,
+      "date": 132744900619763125
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke Red_edition.spb",
+      "size": 13921,
+      "date": 132744900620003128
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke White NEAR.spb",
+      "size": 5134,
+      "date": 132744900620073170
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke White NEAR_edition.spb",
+      "size": 7351,
+      "date": 132744900620193083
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke White.spb",
-      "size": 6489,
-      "date": 132726284457966970
+      "size": 6216,
+      "date": 132744900620283092
+    },
+    {
+      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/Aerobatics Smoke White_edition.spb",
+      "size": 13925,
+      "date": 132744900620513134
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effects-aerobatics-smoke/VisualEffectLibrary.xml",
-      "size": 342,
-      "date": 132726284458286990
+      "size": 652,
+      "date": 132744900620553122
     }
   ]
 }

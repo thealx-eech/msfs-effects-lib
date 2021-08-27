@@ -54,28 +54,49 @@ Exhaust smoke https://youtu.be/UtqtVRw8F6Q
 5. Before ```</Behaviors>``` insert (example for Vertigo - Turbo Prop Racer)
 ```xml
 		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
-		<Component ID="FX_SMOKE_LEFT">
-			<Component ID="FX_SMOKE_LEFT_NODE" Node="LIGHT_ASOBO_Navigation_Red">
+
+		<Component ID="FX_SMOKE_RED">
+			<Component ID="FX_SMOKE_RED_NODE" Node="LIGHT_ASOBO_Navigation_Red">
 				<UseTemplate Name="ASOBO_GT_FX">
 					<FX_CODE>1</FX_CODE>
-					<FX_GUID>{600252C7-538F-45A7-9B57-58C7D6DF4B7C}</FX_GUID>
+					<FX_GUID>{C4A0D249-1F33-4581-99C4-2DF4FC625C6F}</FX_GUID>
 				</UseTemplate>
 			</Component>
 		</Component>
-		<Component ID="FX_SMOKE_RIGHT">
-			<Component ID="FX_SMOKE_RIGHT_NODE" Node="LIGHT_ASOBO_Navigation_Green">
+		<Component ID="FX_SMOKE_NEAR_RED">
+			<Component ID="FX_SMOKE_NEAR_RED_NODE" Node="LIGHT_ASOBO_Navigation_Red">
 				<UseTemplate Name="ASOBO_GT_FX">
 					<FX_CODE>1</FX_CODE>
-					<FX_GUID>{9CA5EFF5-30EE-4978-83FF-3517689E0C33}</FX_GUID>
+					<FX_GUID>{0E5C03E0-1DC4-4AD9-B887-36200DC7FB95}</FX_GUID>
 				</UseTemplate>
 			</Component>
-		</Component>		
+		</Component>
+		
+		<Component ID="FX_SMOKE_GREEN">
+			<Component ID="FX_SMOKE_GREEN_NODE" Node="LIGHT_ASOBO_Navigation_Green">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>1</FX_CODE>
+					<FX_GUID>{AE15BEB6-BD51-4B22-9542-287E27DC26BA}</FX_GUID>
+				</UseTemplate>
+			</Component>
+		</Component>			
+		<Component ID="FX_SMOKE_NEAR_GREEN">
+			<Component ID="FX_SMOKE_NEAR_GREEN_NODE" Node="LIGHT_ASOBO_Navigation_Green">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>1</FX_CODE>
+					<FX_GUID>{1E46D193-E656-4A5F-AFB3-98E214266E3A}</FX_GUID>
+				</UseTemplate>
+			</Component>
+		</Component>
 ```
-Where FX_GUID #1 taken from "Aerobatics Smoke White.xml", FX_GUID #2 - from "Aerobatics Smoke Blue.xml"
+Where FX_GUID #1 taken from "Aerobatics Smoke White.xml",
+FX_GUID #2 taken from "Aerobatics Smoke White NEAR.xml",
+FX_GUID #3 - from "Aerobatics Smoke Green.xml",
+FX_GUID #4 - from "Aerobatics Smoke Green NEAR.xml"
 
 Node ID found in glTF file
 
-All ID should be unique
+All IDs should be unique
 
 You can attach same affect to different nodes, or different effects to same node
 
@@ -92,35 +113,41 @@ You can attach same affect to different nodes, or different effects to same node
 
   1.2 Included effects: 4
   
-  red: {C4A0D249-1F33-4581-99C4-2DF4FC625C6F}
+  red trail: {C4A0D249-1F33-4581-99C4-2DF4FC625C6F}
+  red near: {0E5C03E0-1DC4-4AD9-B887-36200DC7FB95}
   
-  green: {AE15BEB6-BD51-4B22-9542-287E27DC26BA}
+  green trail: {AE15BEB6-BD51-4B22-9542-287E27DC26BA}
+  green near: {1E46D193-E656-4A5F-AFB3-98E214266E3A}
   
-  blue: {9CA5EFF5-30EE-4978-83FF-3517689E0C33}
+  blue trail: {9CA5EFF5-30EE-4978-83FF-3517689E0C33}
+  blue near: {2AD90D63-9E74-486D-94E4-BED83B243561}
   
-  white: {600252C7-538F-45A7-9B57-58C7D6DF4B7C}
+  white trail: {600252C7-538F-45A7-9B57-58C7D6DF4B7C}
+  white near: {8139BC0E-DAC4-47D3-9F0A-1603E6D4AD52}
 
-  black: {F5B8D8FA-C9AB-4D3A-A9F7-F1C2AB452CA3}
+  black trail: {F5B8D8FA-C9AB-4D3A-A9F7-F1C2AB452CA3}
+  black near: {F5B8D8FA-C9AB-4D3A-A9F7-F1C2AB452CA3}
   
-  orange: {20C1D0CF-40F8-4ED9-A2C7-E008FFE1F6AF}
+  orange trail: {20C1D0CF-40F8-4ED9-A2C7-E008FFE1F6AF}
+  orange near: {31189E4A-206A-4C02-B98E-B351DC802D67}
 
-  1.3 Rate: varialbe (2 particles per each 10 meters)
+  1.3 Rate: 1 sprites per each 5m + 1 ribbon bone each 200m; near - variable by velocity
 
-  1.4 SimVar trigger: none
+  1.4 SimVar trigger: none, through XML
 
-  1.5 Capacity: 2000 (reached at airspeed ~ 500kn)
+  1.5 Capacity: 2000 sprites
 
-  1.6 Rendering distance: 5000m
+  1.6 Rendering distance: 2km sprites, 10km ribbon
 
   1.7 Lifetime: 30s
 
-  1.8 Affected by wind: yes
+  1.8 Affected by wind: no
 
   1.9 Work in multiplayer: yes
   
-  1.10 Meterial: ContrailSmoke, ContrailSmokeNear
+  1.10 Meterial: ContrailSmoke, WaterLandingFoam
   
-  1.11 Demo: https://youtu.be/sMKvOmudbyI
+  1.11 Demo: https://youtu.be/DczJIDfTy00?t=350
   
 # 2. TyreSpray (SU5 incompatible)
 
