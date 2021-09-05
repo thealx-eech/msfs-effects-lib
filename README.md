@@ -235,3 +235,35 @@ You can attach same affect to different nodes, or different effects to same node
   
   4.11 Demo: https://youtu.be/3Zlf6Wc92qc
  
+ # 5. Waterdrop (SU5 compatible)
+
+  5.1 Type: sprites
+  
+  5.2 Included effects: 3
+  
+  white water {B6E10A04-EC5E-4778-A15E-9C3FE8C7CA02}
+  
+  red water {F3ADFB0B-7067-4F49-9162-72D4CD5B5073}
+  
+  fire source (smoke + flame) {0A9B84F3-1FC7-4B4D-9C7E-820088302E18}
+  
+  5.3 Rate: 100/s
+  
+  5.4 SimVar trigger: none
+  
+  5.5 Capacity: 1000
+  
+  5.6 Rendering distance: 2000m
+  
+  5.7 Lifetime 10s
+  
+  5.8 Affected by wind: no
+  
+  5.9 Work in multiplayer: unconfirmed
+ 
+  5.10 Material: WaterLandingFoam
+  
+  5.11 Demo: https://youtu.be/QUkm3z1b0Ws
+  
+  5.12 Note: initial velocity does not work properly after SU5, you need to adjust effect heading manually; for the example video heading value was used: <FX_ROTATION_OFFSET_H>75</FX_ROTATION_OFFSET_H>
+ 

@@ -1,0 +1,17 @@
+<Library Version="1.1.0">
+	<Material Version="1.4.0" Name="TouchingCloud_Flame" Guid="{dc77cfce-5bf4-459e-93ac-be22a1fffb5e}" SurfaceType="UNDEFINED" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="0.5" BlendMode="Transparent">
+		<TagList/>
+		<FlagList/>
+		<TextureList>
+			<Texture FileName="TEXTURES\FLAME_128.PNG.DDS" Binding="MTL_BITMAP_DECAL0"/>
+		</TextureList>
+		<Attributes>
+			<Diffuse Red="1.000000" Green="1.000000" Blue="1.000000"/>
+			<Emissive Red="1.000000" Green="1.000000" Blue="1.000000"/>
+			<UVOffset U="0.000000" V="0.000000"/>
+			<UVScale U="1.000000" V="1.000000"/>
+			<UVRotate>0.000000</UVRotate>
+		</Attributes>
+	</Material>
+</Library>
+

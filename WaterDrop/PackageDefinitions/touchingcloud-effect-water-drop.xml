@@ -1,0 +1,31 @@
+<AssetPackage Name="touchingcloud-effect-water-drop" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>MISC</ContentType>
+		<Title>WaterDrop</Title>
+		<Manufacturer/>
+		<Creator>TouchingCloud</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\touchingcloud-effect-water-drop\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\touchingcloud-effect-water-drop</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="VisualEffectLib">
+			<Type>VisualEffectLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\VisualEffectLibs\touchingcloud\touchingcloud-effect-water-drop\</AssetDir>
+			<OutputDir>VisualEffectLibs\touchingcloud\touchingcloud-effect-water-drop\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
