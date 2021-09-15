@@ -4,10 +4,6 @@ Effects library for Microsoft Flight Simulator
 
 License: MIT, free to use in any freeware or payware projects. No credits required.
 
-# 4.08.2021
-# PROJECT FROZEN
-# until ASOBO fix stability issues of FX editor
-
 # For developers - How to inject into model
 1. Insert smoke nodes into aircraft exterior model (no animation required for them)
 2. Add Component nodes into exterior XML inside of ```<Behaviors></Behaviors>```:
@@ -209,7 +205,7 @@ You can attach same affect to different nodes, or different effects to same node
   
   3.11 Demo: https://youtu.be/76QKM8j0VCg
 
-# 4. Downwash (SU5 incompatible)
+# 4. Downwash (SU5 compatible)
 
   4.1 Type: sprites
   
@@ -219,7 +215,7 @@ You can attach same affect to different nodes, or different effects to same node
   
   4.3 Rate: 2/s
   
-  4.4 SimVar trigger: turb/piston engine RPM > 0 && altitude < 50
+  4.4 SimVar trigger: turb/piston engine #1 RPM > 0 && altitude < 20
   
   4.5 Capacity: 100
   
@@ -234,6 +230,8 @@ You can attach same affect to different nodes, or different effects to same node
   4.10 Material: ContrailSmokeNear
   
   4.11 Demo: https://youtu.be/3Zlf6Wc92qc
+  
+  4.12 Note: as downwash effect appear near the ground instead of aircraft itself, you will reach better visuals if node will be placed on the ground level. Simplest way - create model node with animation where key 0 is aircraft level, key 100 - 20m below aircraft. Animation code will be "(A:RADIO HEIGHT, meters) 5 *"
  
  # 5. Waterdrop (SU5 compatible)
 
