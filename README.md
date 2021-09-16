@@ -209,15 +209,19 @@ You can attach same affect to different nodes, or different effects to same node
 
   4.1 Type: sprites
   
-  4.2 Included effects: 1
+  4.2 Included effects: 3
   
-  {936C9B32-A095-47F6-9619-15D8EE073614}
+  dust {936C9B32-A095-47F6-9619-15D8EE073614}
+  
+  sand {7FAFB2D3-26B7-46C2-972F-D2A5A4A011B1}
+  
+  water & snow {D5BEC8C6-F805-4A46-ADF4-7DF97083E642}
   
   4.3 Rate: 2/s
   
-  4.4 SimVar trigger: turb/piston engine #1 RPM > 0 && altitude < 20
+  4.4 SimVar trigger: turb/piston engine #1 RPM > 0 && altitude < 50
   
-  4.5 Capacity: 100
+  4.5 Capacity: 100 / 500 / 500
   
   4.6 Rendering distance: 2000m
   
@@ -229,9 +233,9 @@ You can attach same affect to different nodes, or different effects to same node
  
   4.10 Material: ContrailSmokeNear
   
-  4.11 Demo: https://youtu.be/3Zlf6Wc92qc
+  4.11 Demo: https://youtu.be/ZnCMCZZrl_Q
   
-  4.12 Note: as downwash effect appear near the ground instead of aircraft itself, you will reach better visuals if node will be placed on the ground level. Simplest way - create model node with animation where key 0 is aircraft level, key 100 - 20m below aircraft. Animation code will be "(A:RADIO HEIGHT, meters) 5 *"
+  4.12 Note: as downwash effect should appear near the ground instead of aircraft itself, you will reach better visuals quality if effect node will be placed between aircraft and ground level. Simplest way - create model empty node with animation where key 0 is aircraft level, key 100 - 50m below aircraft. Animation code will be "(A:RADIO HEIGHT, meters)"
  
  # 5. Waterdrop (SU5 compatible)
 

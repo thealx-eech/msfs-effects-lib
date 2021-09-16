@@ -4,6 +4,7 @@
     <Descr>AceXML Document</Descr>
     <WorldBase.Flight>
         <VisualEffect.VisualEffect InstanceId="{936C9B32-A095-47F6-9619-15D8EE073614}">
+            <Name>Downwash</Name>
             <VisualEffect.EmitterList InstanceId="{5BFEDEBD-7F89-43BE-858C-7C59841779EC}">
                 <ObjectReference InstanceId="{CB0E0BF9-168C-4E45-94D2-F29BC251F3B9}" id="Emitter"/>
             </VisualEffect.EmitterList>
@@ -99,8 +100,9 @@
         </VisualEffect.AddOperation>
         <VisualEffect.Vector3 InstanceId="{93B380B4-6AE7-4C4E-BCC8-A5FCE353ECCB}">
             <OutputValue>{DEB585F6-EEDF-49DD-BCCA-D8D02DD06109}</OutputValue>
-            <x>{9F765885-DF7E-4DC0-8FCA-FE3E20E687B1}, 0.000000</x>
+            <x>{872A9AD9-3A14-4500-A0C3-1663F66A9E8B}, 0.000000</x>
             <y>{00000000-0000-0000-0000-000000000000}, -2.000000</y>
+            <z>{F7522D63-B976-40B0-A112-D9B7F666BEFD}, 0.000000</z>
         </VisualEffect.Vector3>
         <VisualEffect.MultiplyOperation InstanceId="{BD1553FF-C9C1-4C6F-BACF-DD619D0D8F40}">
             <OutputValue>{33A60671-3093-48D1-9475-F6A22F24E21D}</OutputValue>
@@ -151,7 +153,7 @@
         <VisualEffect.MultiplyOperation InstanceId="{9ED18476-3707-4AC3-84D0-CA7CFE701203}">
             <OutputValue>{A84BA0B6-3631-4954-AB86-63F1EA27375A}</OutputValue>
             <xVariant>{E1B3534A-80A4-412B-8A9E-979221FD239A}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, 0.050000</yVariant>
+            <yVariant>{00000000-0000-0000-0000-000000000000}, 0.025000</yVariant>
         </VisualEffect.MultiplyOperation>
         <SimEdition.CommentNode InstanceId="{135481E1-A55E-46EA-A436-2DEB694540FF}" id="ALTITUDE + WEATHER MODIFIER"/>
         <VisualEffect.GetSimVar InstanceId="{0CAC83C7-7BA5-45AF-AD90-0576C6984FFF}">
@@ -210,5 +212,26 @@
             <MaxRandValue>{00000000-0000-0000-0000-000000000000}, 1.100000</MaxRandValue>
             <RandSeed>{ABFF5BD8-7FD0-4360-B3D4-69BFD2690E9A}, 0.000000</RandSeed>
         </VisualEffect.RandomValue>
+        <VisualEffect.RandomValue InstanceId="{6BB6CCC2-1DC5-4161-A05C-AC7CF6FFED88}">
+            <OutputValue>{53F27A42-3AAD-4816-9971-A16EBAB8E456}</OutputValue>
+            <MinRandValue>{00000000-0000-0000-0000-000000000000}, -0.500000</MinRandValue>
+            <MaxRandValue>{00000000-0000-0000-0000-000000000000}, 0.500000</MaxRandValue>
+            <RandSeed>{ABFF5BD8-7FD0-4360-B3D4-69BFD2690E9A}, 0.000000</RandSeed>
+        </VisualEffect.RandomValue>
+        <VisualEffect.MultiplyOperation InstanceId="{CD33F6A6-7F13-4739-A6E4-BD4F315A9884}">
+            <OutputValue>{235DF93C-E510-439B-AAC7-5E78473C6B39}</OutputValue>
+            <xVariant>{53F27A42-3AAD-4816-9971-A16EBAB8E456}, 0.000000</xVariant>
+            <yVariant>{9F765885-DF7E-4DC0-8FCA-FE3E20E687B1}, 0.000000</yVariant>
+        </VisualEffect.MultiplyOperation>
+        <VisualEffect.MultiplyOperation InstanceId="{B947B796-E223-4BC5-BDA2-7A2B5F69935D}">
+            <OutputValue>{F7522D63-B976-40B0-A112-D9B7F666BEFD}</OutputValue>
+            <xVariant>{235DF93C-E510-439B-AAC7-5E78473C6B39}, 0.000000</xVariant>
+            <yVariant>{60FF3471-9C45-4E98-9650-D624C510200D}, 0.000000</yVariant>
+        </VisualEffect.MultiplyOperation>
+        <VisualEffect.MultiplyOperation InstanceId="{67BBF8F8-066C-4669-B839-EE77E8F3DB43}">
+            <OutputValue>{872A9AD9-3A14-4500-A0C3-1663F66A9E8B}</OutputValue>
+            <xVariant>{9F765885-DF7E-4DC0-8FCA-FE3E20E687B1}, 0.000000</xVariant>
+            <yVariant>{60FF3471-9C45-4E98-9650-D624C510200D}, 0.000000</yVariant>
+        </VisualEffect.MultiplyOperation>
     </WorldBase.Flight>
 </SimBase.Document>
