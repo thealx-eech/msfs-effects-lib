@@ -4,10 +4,10 @@
     <Descr>AceXML Document</Descr>
     <WorldBase.Flight>
         <VisualEffect.VisualEffect InstanceId="{0A9B84F3-1FC7-4B4D-9C7E-820088302E18}">
-            <VisualEffect.EmitterList InstanceId="{D396472B-FBA8-4099-A42E-719B724957CB}">
+            <EmitterList>
                 <ObjectReference InstanceId="{1D0D3BE8-CD88-4CE3-AAE7-7F78C33D1268}" id="Emitter"/>
                 <ObjectReference InstanceId="{2E2746D0-3C55-4CE8-BD81-379AD9B2AF93}" id="Emitter"/>
-            </VisualEffect.EmitterList>
+            </EmitterList>
         </VisualEffect.VisualEffect>
         <VisualEffect.Emitter InstanceId="{1D0D3BE8-CD88-4CE3-AAE7-7F78C33D1268}">
             <ParticleRate>{00000000-0000-0000-0000-000000000000}, 1.000000</ParticleRate>

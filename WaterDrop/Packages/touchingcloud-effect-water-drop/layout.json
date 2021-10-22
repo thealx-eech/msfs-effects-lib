@@ -22,48 +22,38 @@
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effect-water-drop/SmallFire.spb",
-      "size": 4571,
-      "date": 132753090836852739
+      "size": 4551,
+      "date": 132793656657622426
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effect-water-drop/SmallFire_edition.spb",
       "size": 1935,
-      "date": 132753090836902692
+      "date": 132793656657672436
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effect-water-drop/VisualEffectLibrary.xml",
       "size": 172,
-      "date": 132753090838121314
-    },
-    {
-      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effect-water-drop/WaterDrop.spb",
-      "size": 5689,
-      "date": 132753090837152691
+      "date": 132793656658134584
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effect-water-drop/WaterDropRed.spb",
-      "size": 6060,
-      "date": 132753090837372731
+      "size": 6053,
+      "date": 132793656657758962
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effect-water-drop/WaterDropRed_edition.spb",
-      "size": 3751,
-      "date": 132753090837611357
+      "size": 2573,
+      "date": 132793656657819530
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effect-water-drop/WaterDropWhite.spb",
-      "size": 6064,
-      "date": 132753090837851333
+      "size": 6057,
+      "date": 132793656658009565
     },
     {
       "path": "VisualEffectLibs/touchingcloud/touchingcloud-effect-water-drop/WaterDropWhite_edition.spb",
-      "size": 3753,
-      "date": 132753090837921360
-    },
-    {
-      "path": "VisualEffectLibs/touchingcloud/touchingcloud-effect-water-drop/WaterDrop_edition.spb",
-      "size": 3387,
-      "date": 132753090838101350
+      "size": 2485,
+      "date": 132793656658109583
     }
   ]
 }

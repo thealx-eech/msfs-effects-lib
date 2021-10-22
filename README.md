@@ -103,7 +103,7 @@ You can attach same affect to different nodes, or different effects to same node
 
 # Table of content:
 
-# 1. AerobaticsSmoke (SU5 compatible)
+# 1. AerobaticsSmoke (SU6 compatible)
 
   1.1 Type: ribbon + sprites
 
@@ -145,7 +145,7 @@ You can attach same affect to different nodes, or different effects to same node
   
   1.11 Demo: https://youtu.be/DczJIDfTy00?t=350
   
-# 2. TyreSpray (SU5 incompatible)
+# 2. TyreSpray (SU6 incompatible)
 
   2.1 Type: sprites
   
@@ -173,7 +173,7 @@ You can attach same affect to different nodes, or different effects to same node
   
   2.11 Demo: https://youtu.be/hOQgkqXoTsw https://youtu.be/FVipNJtf8nA
 
-# 3. EngineExhaust (SU5 incompatible)
+# 3. EngineExhaust (SU6 incompatible)
 
   3.1 Type: sprites
   
@@ -205,7 +205,7 @@ You can attach same affect to different nodes, or different effects to same node
   
   3.11 Demo: https://youtu.be/76QKM8j0VCg
 
-# 4. Downwash (SU5 compatible)
+# 4. Downwash (SU6 incompatible)
 
   4.1 Type: sprites
   
@@ -237,13 +237,13 @@ You can attach same affect to different nodes, or different effects to same node
   
   4.12 Note: as downwash effect should appear near the ground instead of aircraft itself, you will reach better visuals quality if effect node will be placed between aircraft and ground level. Simplest way - create model empty node with animation where key 0 is aircraft level, key 100 - 50m below aircraft. Animation code will be "(A:RADIO HEIGHT, meters)"
  
- # 5. Waterdrop (SU5 compatible)
+ # 5. Waterdrop (SU6 compatible)
 
   5.1 Type: sprites
   
   5.2 Included effects: 3
   
-  white water {B6E10A04-EC5E-4778-A15E-9C3FE8C7CA02}
+  white water {35E73086-F85B-4973-8270-F686107C8422}
   
   red water {F3ADFB0B-7067-4F49-9162-72D4CD5B5073}
   
