@@ -105,9 +105,9 @@ You can attach same affect to different nodes, or different effects to same node
 
 # 1. AerobaticsSmoke (SU6 compatible)
 
-  1.1 Type: ribbon + sprites
+  1.1 Type: sprites
 
-  1.2 Included effects: 4
+  1.2 Included effects: 6
   
   red trail: {C4A0D249-1F33-4581-99C4-2DF4FC625C6F}
   red near: {0E5C03E0-1DC4-4AD9-B887-36200DC7FB95}
@@ -127,13 +127,13 @@ You can attach same affect to different nodes, or different effects to same node
   orange trail: {20C1D0CF-40F8-4ED9-A2C7-E008FFE1F6AF}
   orange near: {31189E4A-206A-4C02-B98E-B351DC802D67}
 
-  1.3 Rate: 1 sprites per each 5m + 1 ribbon bone each 200m; near - variable by velocity
+  1.3 Rate: 1 sprites per each 5m; near - variable by velocity
 
   1.4 SimVar trigger: none, through XML
 
   1.5 Capacity: 2000 sprites
 
-  1.6 Rendering distance: 2km sprites, 10km ribbon
+  1.6 Rendering distance: 5km sprites
 
   1.7 Lifetime: 30s
 
@@ -141,7 +141,7 @@ You can attach same affect to different nodes, or different effects to same node
 
   1.9 Work in multiplayer: yes
   
-  1.10 Meterial: ContrailSmoke, WaterLandingFoam
+  1.10 Meterial: WaterLandingFoam
   
   1.11 Demo: https://youtu.be/DczJIDfTy00?t=350
   
@@ -205,7 +205,7 @@ You can attach same affect to different nodes, or different effects to same node
   
   3.11 Demo: https://youtu.be/76QKM8j0VCg
 
-# 4. Downwash (SU6 incompatible)
+# 4. Downwash (SU6 compatible)
 
   4.1 Type: sprites
   
