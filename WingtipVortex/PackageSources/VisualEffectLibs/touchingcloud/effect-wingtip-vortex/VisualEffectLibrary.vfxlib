@@ -1,0 +1,6 @@
+<VisualEffectLibrary Version="1.0.0">
+	<VisualEffect File="Wingtip_Vortex"/>
+	<VisualEffect File="Leading_Edge_Vortex"/>
+	<VisualEffect File="Vapor_cone"/>
+</VisualEffectLibrary>
+

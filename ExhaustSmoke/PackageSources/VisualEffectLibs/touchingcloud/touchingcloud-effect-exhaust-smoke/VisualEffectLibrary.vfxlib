@@ -1,7 +1,5 @@
 <VisualEffectLibrary Version="1.0.0">
-	<VisualEffect File="Exhaust Eng1"/>
-	<VisualEffect File="Exhaust Eng2"/>
-	<VisualEffect File="Exhaust Eng3"/>
-	<VisualEffect File="Exhaust Eng4"/>
+	<VisualEffect File="Exhaust Smoke"/>
+	<VisualEffect File="Exhaust Smoke NOZZLE"/>
 </VisualEffectLibrary>
 

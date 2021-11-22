@@ -1,0 +1,31 @@
+<AssetPackage Name="touchingcloud-waterballastdump1" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>MISC</ContentType>
+		<Title>Water Ballast Dump</Title>
+		<Manufacturer/>
+		<Creator>touchingCloud</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\touchingcloud-waterballastdump1\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\touchingcloud-waterballastdump1\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="VisualEffectLib">
+			<Type>VisualEffectLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\VisualEffectLibs\touchingcloud\touchingcloud-waterballastdump1\</AssetDir>
+			<OutputDir>VisualEffectLibs\touchingcloud\touchingcloud-waterballastdump1\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

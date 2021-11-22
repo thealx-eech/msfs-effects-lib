@@ -16,7 +16,7 @@
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
 			<AssetDir>PackageDefinitions\touchingcloud-effects-aerobatics-smoke\ContentInfo</AssetDir>
-			<OutputDir>ContentInfo\touchingcloud-effects-aerobatics-smoke</OutputDir>
+			<OutputDir>ContentInfo\touchingcloud-effects-aerobatics-smoke\</OutputDir>
 		</AssetGroup>
 		<AssetGroup Name="VisualEffectLib">
 			<Type>VisualEffectLib</Type>

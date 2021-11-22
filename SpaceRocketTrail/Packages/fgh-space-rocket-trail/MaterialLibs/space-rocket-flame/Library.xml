@@ -1,0 +1,32 @@
+<Library Version="1.1.0">
+
+	<Material Version="1.4.0" Name="VFX_Rocket_Flame" Guid="{22d1b232-39cc-4765-84eb-2691209e01ea}" SurfaceType="UNKNOWN" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="0.878628" BlendMode="Transparent">
+		<TagList/>
+		<FlagList/>
+		<TextureList>
+			<Texture FileName="TEXTURES\VFX_Rocket_Flame.TIF.DDS" Binding="MTL_BITMAP_DECAL0"/>
+		</TextureList>
+		<Attributes>
+			<Diffuse Red="1.000000" Green="0.999990" Blue="0.999990"/>
+			<Emissive Red="0.300000" Green="0.300000" Blue="1.000000"/>
+			<UVOffset U="0.000000" V="0.000000"/>
+			<UVScale U="0.250000" V="1.000000"/>
+			<UVRotate>0.000000</UVRotate>
+			<ExtraParameters>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+			</ExtraParameters>
+		</Attributes>
+	</Material>	
+</Library>
+

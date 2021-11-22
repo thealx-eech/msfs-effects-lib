@@ -16,7 +16,7 @@
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
 			<AssetDir>PackageDefinitions\touchingcloud-effect-water-drop\ContentInfo</AssetDir>
-			<OutputDir>ContentInfo\touchingcloud-effect-water-drop</OutputDir>
+			<OutputDir>ContentInfo\touchingcloud-effect-water-drop\</OutputDir>
 		</AssetGroup>
 		<AssetGroup Name="VisualEffectLib">
 			<Type>VisualEffectLib</Type>

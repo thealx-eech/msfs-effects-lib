@@ -1,0 +1,54 @@
+{
+  "content": [
+    {
+      "path": "ContentInfo/fgh-space-rocket-trail/Thumbnail.jpg",
+      "size": 13070,
+      "date": 132811341988470550
+    },
+    {
+      "path": "MaterialLibs/space-rocket-flame/Library.xml",
+      "size": 1138,
+      "date": 132820905348743475
+    },
+    {
+      "path": "MaterialLibs/space-rocket-flame/Textures/VFX_Rocket_Flame.TIF.DDS",
+      "size": 699300,
+      "date": 132628062247063133
+    },
+    {
+      "path": "MaterialLibs/space-rocket-flame/Textures/VFX_Rocket_Flame.tif.DDS.FLAGS",
+      "size": 39,
+      "date": 132628062247063133
+    },
+    {
+      "path": "MaterialLibs/space-rocket-flame/Textures/VFX_Rocket_Flame.TIF.DDS.json",
+      "size": 249,
+      "date": 132628062247073162
+    },
+    {
+      "path": "VisualEffectLibs/fgh/space-rocket-trail/Launch smoke.spb",
+      "size": 4512,
+      "date": 132820865715057754
+    },
+    {
+      "path": "VisualEffectLibs/fgh/space-rocket-trail/Launch smoke_edition.spb",
+      "size": 1853,
+      "date": 132820865715167825
+    },
+    {
+      "path": "VisualEffectLibs/fgh/space-rocket-trail/Space Rocket Trail.spb",
+      "size": 5115,
+      "date": 132820865715317846
+    },
+    {
+      "path": "VisualEffectLibs/fgh/space-rocket-trail/Space Rocket Trail_edition.spb",
+      "size": 1953,
+      "date": 132820865715397865
+    },
+    {
+      "path": "VisualEffectLibs/fgh/space-rocket-trail/VisualEffectLibrary.xml",
+      "size": 142,
+      "date": 132820865715417872
+    }
+  ]
+}

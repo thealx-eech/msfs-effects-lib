@@ -11,5 +11,9 @@
 	<VisualEffect File="Aerobatics Smoke Blue NEAR"/>
 	<VisualEffect File="Aerobatics Smoke Red NEAR"/>
 	<VisualEffect File="Aerobatics Smoke Orange NEAR"/>
+	<VisualEffect File="Aerobatics Smoke White FA18"/>
+	<VisualEffect File="Aerobatics SMoke White FA18 NEAR"/>
+	<VisualEffect File="Aerobatics Smoke White DG"/>
+	<VisualEffect File="Aerobatics Smoke White NEAR DG"/>
 </VisualEffectLibrary>
 

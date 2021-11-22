@@ -98,14 +98,10 @@
         <VisualEffect.WindDirection InstanceId="{F45FAEB3-4341-4424-B219-8839C2E060DC}">
             <OutputValue>{2F86FCC8-09E2-4113-B24C-E376E9A62A4A}</OutputValue>
         </VisualEffect.WindDirection>
-        <VisualEffect.Vector3 InstanceId="{6AE27E55-B0CD-4922-9B40-3AF503FCD591}">
-            <OutputValue>{7C13C96F-57E2-4877-AD3A-4ED2F6C82A18}</OutputValue>
-            <y>{00000000-0000-0000-0000-000000000000}, 3.000000</y>
-        </VisualEffect.Vector3>
         <VisualEffect.AddOperation InstanceId="{0D9978A8-5350-4E1B-9A2B-38F9274A24FC}">
             <OutputValue>{DE6BD450-4566-4C64-8F28-6B181532C849}</OutputValue>
             <xVariant>{2F86FCC8-09E2-4113-B24C-E376E9A62A4A}, 0.000000</xVariant>
-            <yVariant>{7C13C96F-57E2-4877-AD3A-4ED2F6C82A18}, 0.000000</yVariant>
+            <yVariant>{60971ECA-DB70-41C5-BDE4-163EA589838A}, 0.000000</yVariant>
         </VisualEffect.AddOperation>
         <VisualEffect.RandomValue InstanceId="{F3BEEBA1-4776-44C6-B4D5-E7ADE59DE5F5}">
             <OutputValue>{9FF9F044-1EE1-4D97-8F7A-DD16B0879B1E}</OutputValue>
@@ -183,5 +179,9 @@
             <xVariant>{C0D02669-C94F-4B33-96F1-04AC7132EBC5}, 0.000000</xVariant>
             <yVariant>{283BA52D-7D1E-43EC-B235-9CF614E415CC}, 0.000000</yVariant>
         </VisualEffect.MultiplyOperation>
+        <VisualEffect.GroundDirection InstanceId="{69BAFB56-C230-4943-9B0A-08E257E0F295}">
+            <OutputValue>{60971ECA-DB70-41C5-BDE4-163EA589838A}</OutputValue>
+            <y>{00000000-0000-0000-0000-000000000000}, 3.000000</y>
+        </VisualEffect.GroundDirection>
     </WorldBase.Flight>
 </SimBase.Document>

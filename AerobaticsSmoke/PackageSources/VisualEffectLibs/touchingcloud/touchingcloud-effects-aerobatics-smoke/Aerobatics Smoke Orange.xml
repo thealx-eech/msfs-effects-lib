@@ -249,8 +249,9 @@
         </VisualEffect.GetParticleAttribute>
         <VisualEffect.RandomValue InstanceId="{081EB79D-CAEB-423C-B499-EC8EDE00AF5C}">
             <OutputValue>{BA0DE790-B20F-42C9-B1F2-D7C5AC16DB65}</OutputValue>
-            <MaxRandValue>{00000000-0000-0000-0000-000000000000}, 1.000000</MaxRandValue>
+            <MaxRandValue>{00000000-0000-0000-0000-000000000000}, 0.750000</MaxRandValue>
             <RandSeed>{BB8DD3CC-BF0E-4BEE-BD40-81C1F79DF476}, 0.000000</RandSeed>
+            <MinRandValue>{00000000-0000-0000-0000-000000000000}, 0.500000</MinRandValue>
         </VisualEffect.RandomValue>
         <VisualEffect.MultiplyOperation InstanceId="{3DB87C66-36D5-4301-BE99-457AEB1A9328}">
             <OutputValue>{60C2FB5C-1D11-4A08-9FB4-8E0C559B8600}</OutputValue>

@@ -1,0 +1,31 @@
+<AssetPackage Name="fgh-space-rocket-trail" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>MISC</ContentType>
+		<Title>Space Rocket Trail</Title>
+		<Manufacturer/>
+		<Creator>fgh</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\fgh-space-rocket-trail\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\fgh-space-rocket-trail\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="VisualEffectLib">
+			<Type>VisualEffectLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\VisualEffectLibs\fgh\space-rocket-trail\</AssetDir>
+			<OutputDir>VisualEffectLibs\fgh\space-rocket-trail\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

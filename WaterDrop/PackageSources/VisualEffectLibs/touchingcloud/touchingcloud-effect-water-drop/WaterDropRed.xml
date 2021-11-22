@@ -27,7 +27,7 @@
                 <FloatIn>{7F935EA0-C390-4B6A-9235-634DF512E982}, 0.000000</FloatIn>
             </ParticleSize>
             <ParticleVelocity>
-                <Float3In>{57F126DD-CE92-4246-961E-6938CC72393C}, 0.000000, 0.000000, 0.000000</Float3In>
+                <Float3In>{D905296D-80F8-4B23-8188-EC9C12CF412B}, 0.000000, 0.000000, 0.000000</Float3In>
             </ParticleVelocity>
         </VisualEffect.BlockParticleInit>
         <VisualEffect.BlockParticleUpdate InstanceId="{373EBC4E-F148-40A2-A722-86C2FD2425FF}">
@@ -43,9 +43,14 @@
             <ParticleVelocity>
                 <Float3In>{83D54ED8-CFCD-4505-9406-D6EB75A2495F}, 0.000000, 0.000000, 0.000000</Float3In>
             </ParticleVelocity>
+            <ParticleTextureIndex>
+                <FloatIn>{E9E3D6FA-E5DB-409D-8AB7-A34D8EB67FD4}, 0.000000</FloatIn>
+            </ParticleTextureIndex>
         </VisualEffect.BlockParticleUpdate>
         <VisualEffect.Output InstanceId="{2FFFED74-58CC-45FE-890A-2BFAE46636DC}">
-            <Material>{1BC32C80-2D45-41E9-8EDB-843E7D337C12}</Material>
+            <Material>{D291E593-C306-4857-B5E2-DAF9DE74E973}</Material>
+            <UVMode>Atlas</UVMode>
+            <AtlasSize>{00000000-0000-0000-0000-000000000000}, 4.000000, 4.000000</AtlasSize>
             <ParticleColor>
                 <ColorIn>{8C13F762-2D5E-40DC-A807-BE3348E4B1DF}, 0, 0, 0, 0</ColorIn>
             </ParticleColor>
@@ -71,7 +76,7 @@
         <VisualEffect.MultiplyOperation InstanceId="{2AAD14E3-A241-47F0-919C-6A002AA0B31D}">
             <OutputValue>{BDEC9E58-8435-4108-8B6D-09D726AE271A}</OutputValue>
             <xVariant>{E7D72771-9A2C-4CD6-8272-3C72500C020C}, 0.000000</xVariant>
-            <yVariant>{628EAA22-23C3-42FE-A9AC-E7924B928431}, 0.000000</yVariant>
+            <yVariant>{737FD0F7-F9A9-436C-9F5D-8377F726ABEF}, 0.000000</yVariant>
         </VisualEffect.MultiplyOperation>
         <VisualEffect.GetParticleAttribute InstanceId="{7A509DA3-9767-49CF-B3A9-73BF2B0C3D27}">
             <OutputValue>{E7D72771-9A2C-4CD6-8272-3C72500C020C}</OutputValue>
@@ -173,30 +178,10 @@
             <FXTime>{168ACAF9-E0FA-4250-AF3B-FCC3D597D0BF}, 0.000000</FXTime>
             <Curve>0.000,0.027,NAN,NAN,0.080,0.409,NAN,NAN,0.212,0.753,NAN,NAN,1.000,1.000,NAN,NAN</Curve>
         </VisualEffect.GetBezierCurve>
-        <VisualEffect.AddOperation InstanceId="{557B2AC7-6410-4474-AABA-BA3CD1198559}">
-            <OutputValue>{628EAA22-23C3-42FE-A9AC-E7924B928431}</OutputValue>
-            <xVariant>{4A69F925-3A5A-4C97-B32B-58BD02C88E0D}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, 1.000000</yVariant>
-        </VisualEffect.AddOperation>
-        <VisualEffect.MultiplyOperation InstanceId="{FF94B0F1-1626-49AB-A097-3C13DB8BF7FE}">
-            <OutputValue>{4A69F925-3A5A-4C97-B32B-58BD02C88E0D}</OutputValue>
-            <xVariant>{2EC7F0FF-10BA-4F99-8501-1575DD7301FC}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, -1.000000</yVariant>
-        </VisualEffect.MultiplyOperation>
-        <VisualEffect.MultiplyOperation InstanceId="{43E1E7E8-4DEA-4800-92FB-85C901EBE003}">
-            <OutputValue>{DF0E1A93-0948-4CE6-A2C6-42BD94B59313}</OutputValue>
-            <xVariant>{842722AD-C14C-4F2E-A104-E593E4C67438}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, 360.000000</yVariant>
-        </VisualEffect.MultiplyOperation>
         <VisualEffect.Vector3 InstanceId="{A572033A-45B8-4D76-9BD4-516894FA17E1}">
             <OutputValue>{ADAB9B3E-DBCE-4A5C-B9BF-BE75A5F04623}</OutputValue>
-            <y>{DF0E1A93-0948-4CE6-A2C6-42BD94B59313}, 0.000000</y>
+            <y>{6E8FB043-24DE-4B10-93E1-0E0C513CE516}, 0.000000</y>
         </VisualEffect.Vector3>
-        <VisualEffect.AddOperation InstanceId="{BB627D1A-55B0-42CD-8639-DA78835471F7}">
-            <OutputValue>{61C46C61-4DA8-48D3-A69E-170E1B924FE2}</OutputValue>
-            <xVariant>{85548825-D2FA-4B79-A82C-8EEDA8641305}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, -10.000000</yVariant>
-        </VisualEffect.AddOperation>
         <VisualEffect.GetBezierCurve InstanceId="{C89FAE46-F764-40AA-AB84-92C70D8E71A2}">
             <OutputValue>{A9C27BA7-C63A-42EA-A80D-57A3E5C22150}</OutputValue>
             <FXTime>{C46C919B-3142-4C77-8E62-1B024ACC9C45}, 0.000000</FXTime>
@@ -211,7 +196,7 @@
         <VisualEffect.LocalDirection InstanceId="{976056A6-56A7-44F3-83F8-1BDC0A7A9004}">
             <OutputValue>{57F126DD-CE92-4246-961E-6938CC72393C}</OutputValue>
             <x>{A18727C2-F232-412F-A9CB-A0452F9449C3}, 0.000000</x>
-            <y>{61C46C61-4DA8-48D3-A69E-170E1B924FE2}, -50.000000</y>
+            <y>{85548825-D2FA-4B79-A82C-8EEDA8641305}, -50.000000</y>
             <z>{C1E68176-94FE-42C0-B737-A62592334482}, 200.000000</z>
         </VisualEffect.LocalDirection>
         <VisualEffect.GetSimVar InstanceId="{78865270-8663-48DD-B5E9-4E264BAC1ED8}">
@@ -230,5 +215,33 @@
             <OutputValue>{F04614CA-0741-4672-8F34-547116E9211A}</OutputValue>
             <GravityScale>{00000000-0000-0000-0000-000000000000}, 9.800000</GravityScale>
         </VisualEffect.GravityVector>
+        <VisualEffect.GroundDirection InstanceId="{8662623D-F78E-4A8B-8EF3-C0B40A804F19}">
+            <OutputValue>{32624A79-E018-40AA-B309-8A0B3B659290}</OutputValue>
+            <y>{00000000-0000-0000-0000-000000000000}, -9.800000</y>
+        </VisualEffect.GroundDirection>
+        <VisualEffect.AddOperation InstanceId="{0B165C3D-40A2-4658-B33F-9D72343798B8}">
+            <OutputValue>{D905296D-80F8-4B23-8188-EC9C12CF412B}</OutputValue>
+            <xVariant>{57F126DD-CE92-4246-961E-6938CC72393C}, 0.000000</xVariant>
+            <yVariant>{32624A79-E018-40AA-B309-8A0B3B659290}, 0.000000</yVariant>
+        </VisualEffect.AddOperation>
+        <VisualEffect.SubtractOperation InstanceId="{9EA71973-F002-46CC-BE4B-3E172DB04DBF}">
+            <OutputValue>{737FD0F7-F9A9-436C-9F5D-8377F726ABEF}</OutputValue>
+            <xVariant>{00000000-0000-0000-0000-000000000000}, 1.000000</xVariant>
+            <yVariant>{2EC7F0FF-10BA-4F99-8501-1575DD7301FC}, 0.000000</yVariant>
+        </VisualEffect.SubtractOperation>
+        <VisualEffect.MultiplyOperation InstanceId="{CC18FD8F-42F4-4D0B-8E0D-B51CD72CFE94}">
+            <OutputValue>{C2D6F431-2801-468D-8C0B-96E5B1F60465}</OutputValue>
+            <xVariant>{A44CA65A-9AC2-4FB2-B7B7-C863BD598755}, 0.000000</xVariant>
+            <yVariant>{00000000-0000-0000-0000-000000000000}, 16.000000</yVariant>
+        </VisualEffect.MultiplyOperation>
+        <VisualEffect.AddOperation InstanceId="{9B56603D-39C6-458C-9EF3-20AA7C9E8484}">
+            <OutputValue>{E9E3D6FA-E5DB-409D-8AB7-A34D8EB67FD4}</OutputValue>
+            <xVariant>{C2D6F431-2801-468D-8C0B-96E5B1F60465}, 0.000000</xVariant>
+        </VisualEffect.AddOperation>
+        <VisualEffect.RandomValue InstanceId="{283E8D47-6787-4CD8-ABBF-0E0CD66D2824}">
+            <OutputValue>{6E8FB043-24DE-4B10-93E1-0E0C513CE516}</OutputValue>
+            <MaxRandValue>{00000000-0000-0000-0000-000000000000}, 360.000000</MaxRandValue>
+            <RandSeed>{842722AD-C14C-4F2E-A104-E593E4C67438}, 0.000000</RandSeed>
+        </VisualEffect.RandomValue>
     </WorldBase.Flight>
 </SimBase.Document>

@@ -1,0 +1,31 @@
+<AssetPackage Name="touchingcloud-effect-wingtip-vortex" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>MISC</ContentType>
+		<Title>Wingtip Vortex</Title>
+		<Manufacturer/>
+		<Creator>TouchingCloud</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\touchingcloud-effect-wingtip-vortex\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\touchingcloud-effect-wingtip-vortex\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="VisualEffectLib">
+			<Type>VisualEffectLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\VisualEffectLibs\touchingcloud\effect-wingtip-vortex\</AssetDir>
+			<OutputDir>VisualEffectLibs\touchingcloud\effect-wingtip-vortex\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

@@ -1,0 +1,31 @@
+<AssetPackage Name="touchingcloud-effect-chimney-smoke" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>MISC</ContentType>
+		<Title>Chimney Smoke</Title>
+		<Manufacturer/>
+		<Creator>TouchingCloud</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\touchingcloud-effect-chimney-smoke\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\touchingcloud-effect-chimney-smoke\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="VisualEffectLib">
+			<Type>VisualEffectLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\VisualEffectLibs\touchingcloud\touchingcloud-effect-chimney-smoke\</AssetDir>
+			<OutputDir>VisualEffectLibs\touchingcloud\touchingcloud-effect-chimney-smoke\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

@@ -3,9 +3,9 @@
   "content_type": "MISC",
   "title": "Exhaust Smoke",
   "manufacturer": "",
-  "creator": "MyName",
+  "creator": "TouchingCloud",
   "package_version": "0.1.0",
-  "minimum_game_version": "1.16.2",
+  "minimum_game_version": "1.21.13",
   "release_notes": {
     "neutral": {
       "LastUpdate": "",
