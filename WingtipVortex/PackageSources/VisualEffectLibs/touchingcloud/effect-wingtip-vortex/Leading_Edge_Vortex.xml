@@ -86,7 +86,7 @@
         <VisualEffect.GetBezierCurve InstanceId="{516CF1D2-62D9-4935-97C8-A8C9090B97D2}">
             <OutputValue>{16125CA1-0AF9-426A-9C52-71332EC82599}</OutputValue>
             <FXTime>{31039761-A20C-4918-885C-4FC2F5A3361B}, 0.000000</FXTime>
-            <Curve>-0.007,-0.014,NAN,NAN,0.151,0.307,NAN,NAN,0.251,0.346,NAN,NAN,0.431,0.102,NAN,NAN,0.995,-0.027,NAN,NAN</Curve>
+            <Curve>-0.007,-0.014,NAN,NAN,0.151,0.307,NAN,NAN,0.251,0.346,NAN,NAN,0.431,0.102,NAN,NAN,1.000,-0.000,NAN,NAN</Curve>
         </VisualEffect.GetBezierCurve>
         <VisualEffect.GetSimVar InstanceId="{8EC9054D-42D9-4B53-8BD1-C8A9D102BE7E}">
             <OutputValue>{E1E73D23-6D75-4282-8201-A154D8F26ED4}</OutputValue>
@@ -95,7 +95,7 @@
         <VisualEffect.MultiplyOperation InstanceId="{59CD11D3-4856-4DE2-9773-78F3660350B1}">
             <OutputValue>{99B774E0-D894-4E36-BB36-D820E21174C3}</OutputValue>
             <xVariant>{16125CA1-0AF9-426A-9C52-71332EC82599}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, 0.500000</yVariant>
+            <yVariant>{00000000-0000-0000-0000-000000000000}, 0.250000</yVariant>
         </VisualEffect.MultiplyOperation>
         <SimEdition.CommentNode InstanceId="{8286C5BC-F873-4ADE-BFD4-705438C088FD}" id="GLOBAL MODIFIER"/>
         <VisualEffect.MultiplyOperation InstanceId="{0B9F817A-8944-47B8-945C-CEEE4DDBAC37}">

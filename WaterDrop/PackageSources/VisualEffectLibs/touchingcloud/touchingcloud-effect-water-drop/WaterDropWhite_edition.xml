@@ -5,9 +5,6 @@
         version="1,0"
         id="WaterDropWhite_edition">
     <Descr>This file contains useful additional properties for edition purpose.</Descr>
-    <SimEdition.EditionInfo RelatedInstanceId="{B426B933-93D9-45CD-BBC8-486F7D5301AC}">
-        <NodePosition>374.000,-202.000</NodePosition>
-    </SimEdition.EditionInfo>
     <SimEdition.EditionInfo RelatedInstanceId="{854ABF05-9B26-49B3-936C-EAAFEFBB454C}">
         <NodePosition>280.000,-81.000</NodePosition>
     </SimEdition.EditionInfo>
@@ -157,5 +154,14 @@
     </SimEdition.EditionInfo>
     <SimEdition.EditionInfo RelatedInstanceId="{B0369BA1-6B6A-401A-A3E5-7A59E8C99798}">
         <NodePosition>-632.000,744.000</NodePosition>
+    </SimEdition.EditionInfo>
+    <SimEdition.EditionInfo RelatedInstanceId="{35E73086-F85B-4973-8270-F686107C8422}">
+        <NodePosition>-129.000,-199.000</NodePosition>
+    </SimEdition.EditionInfo>
+    <SimEdition.EditionInfo RelatedInstanceId="{B7B9E9F7-ADBE-454E-B2B9-79F54A4CD02A}">
+        <NodePosition>-779.333,414.833</NodePosition>
+    </SimEdition.EditionInfo>
+    <SimEdition.EditionInfo RelatedInstanceId="{7B7F2C03-E44F-482C-ABA6-531B53475042}">
+        <NodePosition>-423.333,18.833</NodePosition>
     </SimEdition.EditionInfo>
 </SimBase.Document>

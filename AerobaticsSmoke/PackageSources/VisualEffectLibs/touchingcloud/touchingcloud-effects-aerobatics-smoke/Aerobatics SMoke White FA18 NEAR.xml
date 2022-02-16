@@ -21,7 +21,7 @@
                 <ObjectReference InstanceId="{AA779F97-AFEE-41E6-B5AB-4559699DF705}" id="BlockParticleUpdate"/>
             </ParticleUpdate>
             <ParticleLifetime>
-                <FloatIn>{00000000-0000-0000-0000-000000000000}, 1.500000</FloatIn>
+                <FloatIn>{DC60F7BE-B75A-490A-ACFB-9D84157AD0D9}, 1.500000</FloatIn>
             </ParticleLifetime>
             <ParticleSize>
                 <FloatIn>{88400927-B45D-45CA-A44E-DA7FB92C3092}, 0.000000</FloatIn>
@@ -55,7 +55,7 @@
             <x>{68976EEA-AFFD-4038-8DFA-6A62F47E80F8}, 1.000000</x>
             <y>{68976EEA-AFFD-4038-8DFA-6A62F47E80F8}, 1.000000</y>
             <z>{68976EEA-AFFD-4038-8DFA-6A62F47E80F8}, 1.000000</z>
-            <w>{C457401A-41BD-4DCC-8E31-84753F8F3D0D}, 0.000000</w>
+            <w>{D79BDC95-E230-46BC-B8C5-C43706D763A7}, 0.000000</w>
         </VisualEffect.Vector4>
         <VisualEffect.GetParticleAttribute InstanceId="{468E6A64-5DB5-4331-9E4A-6C24AC388D08}">
             <OutputValue>{531DAE33-90B6-4F7A-955B-7E059488FF90}</OutputValue>
@@ -78,7 +78,7 @@
         </VisualEffect.AddOperation>
         <VisualEffect.MultiplyOperation InstanceId="{47FEAE65-0A5B-4719-9BA5-B09179982234}">
             <OutputValue>{EDBFCE92-FEED-462B-BE5E-4C3BF64B9861}</OutputValue>
-            <xVariant>{6BC9E62C-5915-4D43-BCB4-4DB78539DF71}, 0.000000</xVariant>
+            <xVariant>{26DBA471-02BC-4FAB-8590-0A8B453514E2}, 0.000000</xVariant>
             <yVariant>{A7647FA8-E028-4CD8-9604-A06BAE7FCC65}, 0.000000</yVariant>
         </VisualEffect.MultiplyOperation>
         <VisualEffect.AddOperation InstanceId="{C134FCAA-2A0C-4C5C-B887-04824EAEA1AE}">
@@ -86,11 +86,6 @@
             <xVariant>{DD0EA1FB-E28B-462F-BFBF-19BF454B78ED}, 0.000000</xVariant>
             <yVariant>{EDBFCE92-FEED-462B-BE5E-4C3BF64B9861}, 0.000000</yVariant>
         </VisualEffect.AddOperation>
-        <VisualEffect.MultiplyOperation InstanceId="{4CBF09ED-D9DB-4FB4-BB4C-8D445FC30B9F}">
-            <OutputValue>{066F191C-8AF7-49A1-8B7E-E7254BEE40A6}</OutputValue>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, -50.000000</yVariant>
-            <xVariant>{00000000-0000-0000-0000-000000000000}, 1.000000</xVariant>
-        </VisualEffect.MultiplyOperation>
         <SimEdition.CommentNode InstanceId="{D68CE2D8-E02A-43C6-956B-DDE626C57C40}" id="INIT VELOCITY"/>
         <SimEdition.CommentNode InstanceId="{91A8F55F-7CC3-4EB7-B47A-055536A71E6B}" id="INIT SIZE"/>
         <VisualEffect.Vector3 InstanceId="{164A11F4-FF1E-44E7-ACF2-DE03BC9131C1}">
@@ -118,28 +113,23 @@
             <xVariant>{921922CF-AF64-4443-908E-3A594921105E}, 0.000000</xVariant>
             <yVariant>{00000000-0000-0000-0000-000000000000}, 1.000000</yVariant>
         </VisualEffect.MultiplyOperation>
-        <VisualEffect.GetSimVar InstanceId="{93BCCCA5-9889-4BF0-805F-0CB79B52078C}">
-            <OutputValue>{BAAFB297-D56D-43CC-98C7-41B67EF8E599}</OutputValue>
-            <SimvarType>VELOCITY BODY Z</SimvarType>
-            <Unit>79</Unit>
-        </VisualEffect.GetSimVar>
         <VisualEffect.MultiplyOperation InstanceId="{EE5E60D1-9F02-4F83-890B-3B7019C6D8F3}">
             <OutputValue>{BD0139D2-2081-4599-AA08-22B8745C278F}</OutputValue>
             <xVariant>{8369C26B-1EC7-4032-B07F-06E4B24F5762}, 0.000000</xVariant>
-            <yVariant>{00000000-0000-0000-0000-000000000000}, 0.500000</yVariant>
+            <yVariant>{00000000-0000-0000-0000-000000000000}, 0.600000</yVariant>
         </VisualEffect.MultiplyOperation>
         <SimEdition.CommentNode InstanceId="{C7925380-DF36-4AEA-96ED-27CCD3B2ED5D}" id="RATE"/>
         <SimEdition.CommentNode InstanceId="{84EB55DB-67A6-439E-84FF-5303696E2606}" id="ALPHA"/>
         <SimEdition.CommentNode InstanceId="{9C374050-E935-4B01-9489-9C2E9E04ABB6}" id="VELOCITY"/>
         <VisualEffect.MultiplyOperation InstanceId="{5937A32D-CEB7-4217-827C-87A653D964C5}">
             <OutputValue>{052F3F61-B14F-4A44-908C-B2465606A77D}</OutputValue>
-            <xVariant>{066F191C-8AF7-49A1-8B7E-E7254BEE40A6}, 0.000000</xVariant>
+            <xVariant>{90747211-2770-4CBE-8D72-2C85F2D36F24}, 0.000000</xVariant>
             <yVariant>{00000000-0000-0000-0000-000000000000}, -1.000000</yVariant>
         </VisualEffect.MultiplyOperation>
         <VisualEffect.AddOperation InstanceId="{96A87EA7-8EB9-4B88-A26A-F321CEF5A373}">
             <OutputValue>{8369C26B-1EC7-4032-B07F-06E4B24F5762}</OutputValue>
             <xVariant>{052F3F61-B14F-4A44-908C-B2465606A77D}, 0.000000</xVariant>
-            <yVariant>{BAAFB297-D56D-43CC-98C7-41B67EF8E599}, 0.000000</yVariant>
+            <yVariant>{F89895B9-AFBA-4DBF-A474-960F2763DEF5}, 0.000000</yVariant>
         </VisualEffect.AddOperation>
         <VisualEffect.GetBezierCurve InstanceId="{00641802-281A-4B87-B811-AC1949E0CE10}">
             <OutputValue>{921922CF-AF64-4443-908E-3A594921105E}</OutputValue>
@@ -174,7 +164,7 @@
         <VisualEffect.RandomValue InstanceId="{3076F52F-C6C1-4C0B-A1AA-C98DD9912A83}">
             <OutputValue>{88400927-B45D-45CA-A44E-DA7FB92C3092}</OutputValue>
             <MinRandValue>{00000000-0000-0000-0000-000000000000}, 3.000000</MinRandValue>
-            <MaxRandValue>{00000000-0000-0000-0000-000000000000}, 6.000000</MaxRandValue>
+            <MaxRandValue>{00000000-0000-0000-0000-000000000000}, 4.000000</MaxRandValue>
             <RandSeed>{18B46772-C479-479D-9CCF-B91CC3073EB7}, 0.000000</RandSeed>
         </VisualEffect.RandomValue>
         <VisualEffect.GetParticleAttribute InstanceId="{0D8254E0-3473-4444-95BE-645533E54D22}">
@@ -187,12 +177,9 @@
             <MaxRandValue>{00000000-0000-0000-0000-000000000000}, 360.000000</MaxRandValue>
             <RandSeed>{790223D0-E5E3-47E6-B76A-B2D985C1B3E8}, 0.000000</RandSeed>
         </VisualEffect.RandomValue>
-        <VisualEffect.Vector3 InstanceId="{AD4EE4E8-0AB9-4CCE-85CF-9F91CD4648BC}">
-            <OutputValue>{6BC9E62C-5915-4D43-BCB4-4DB78539DF71}</OutputValue>
-        </VisualEffect.Vector3>
         <VisualEffect.LocalDirection InstanceId="{C7F026F7-8554-4B34-BD0A-F6C32C09B277}">
             <OutputValue>{0D07722F-633C-468A-B663-FD1F66F168F3}</OutputValue>
-            <z>{066F191C-8AF7-49A1-8B7E-E7254BEE40A6}, -50.000000</z>
+            <z>{90747211-2770-4CBE-8D72-2C85F2D36F24}, -50.000000</z>
         </VisualEffect.LocalDirection>
         <VisualEffect.RandomValue InstanceId="{6953B739-EFB2-458D-A660-D822001320B0}">
             <OutputValue>{68976EEA-AFFD-4038-8DFA-6A62F47E80F8}</OutputValue>
@@ -204,5 +191,56 @@
             <OutputValue>{308C20AE-3F21-4EC6-A669-99C7801138C0}</OutputValue>
             <ParticleAttributeType>id</ParticleAttributeType>
         </VisualEffect.GetParticleAttribute>
+        <VisualEffect.GraphParameter InstanceId="{A4B0CF6A-B04E-470A-8241-0F3691EF38F5}">
+            <OutputValue>{0F50E6ED-8222-4B39-B43E-499325E9959E}</OutputValue>
+            <GraphParamName>LIFETIME</GraphParamName>
+            <GraphParamDefaultValue>{00000000-0000-0000-0000-000000000000}, 2.000000</GraphParamDefaultValue>
+        </VisualEffect.GraphParameter>
+        <VisualEffect.DivideOperation InstanceId="{31204072-67E4-422D-AF74-15B6A524387D}">
+            <OutputValue>{458DC02B-AABA-4B1F-B6EA-3CE50193134E}</OutputValue>
+            <xVariant>{88400927-B45D-45CA-A44E-DA7FB92C3092}, 0.000000</xVariant>
+            <yVariant>{0F50E6ED-8222-4B39-B43E-499325E9959E}, 1.000000</yVariant>
+        </VisualEffect.DivideOperation>
+        <VisualEffect.PowOperation InstanceId="{B7569755-BCF9-4CBB-8EA0-DF6765A0D868}">
+            <OutputValue>{DC60F7BE-B75A-490A-ACFB-9D84157AD0D9}</OutputValue>
+            <xVariant>{00000000-0000-0000-0000-000000000000}, 1.500000</xVariant>
+            <yVariant>{7804A5DF-0191-4B52-ABA5-B2D7947829E9}, 0.000000</yVariant>
+        </VisualEffect.PowOperation>
+        <VisualEffect.DivideOperation InstanceId="{C618B56B-0100-4BDD-AF65-4A5616CC2C1C}">
+            <OutputValue>{90747211-2770-4CBE-8D72-2C85F2D36F24}</OutputValue>
+            <xVariant>{00000000-0000-0000-0000-000000000000}, -50.000000</xVariant>
+            <yVariant>{0F50E6ED-8222-4B39-B43E-499325E9959E}, 0.000000</yVariant>
+        </VisualEffect.DivideOperation>
+        <VisualEffect.WindDirection InstanceId="{FE9D6FB5-7D67-4B51-8802-3C4404044905}">
+            <OutputValue>{78E469CB-D616-49DC-A825-AF15CF67CD61}</OutputValue>
+        </VisualEffect.WindDirection>
+        <VisualEffect.PowOperation InstanceId="{153EC7B9-ED93-44DE-98B7-263A4BF53F2E}">
+            <OutputValue>{D79BDC95-E230-46BC-B8C5-C43706D763A7}</OutputValue>
+            <xVariant>{C457401A-41BD-4DCC-8E31-84753F8F3D0D}, 0.000000</xVariant>
+            <yVariant>{0F50E6ED-8222-4B39-B43E-499325E9959E}, 0.000000</yVariant>
+        </VisualEffect.PowOperation>
+        <VisualEffect.PowOperation InstanceId="{9F3C5C68-FA45-4945-8C16-2A12267DB9C1}">
+            <OutputValue>{7804A5DF-0191-4B52-ABA5-B2D7947829E9}</OutputValue>
+            <xVariant>{0F50E6ED-8222-4B39-B43E-499325E9959E}, 0.000000</xVariant>
+            <yVariant>{00000000-0000-0000-0000-000000000000}, 2.250000</yVariant>
+        </VisualEffect.PowOperation>
+        <VisualEffect.AddOperation InstanceId="{2F33353E-E721-4346-B18B-58567B2DF82B}">
+            <OutputValue>{26DBA471-02BC-4FAB-8590-0A8B453514E2}</OutputValue>
+            <xVariant>{78E469CB-D616-49DC-A825-AF15CF67CD61}, 0.000000</xVariant>
+            <yVariant>{A5B49F76-9D97-4D2D-980B-241AD7DFEED7}, 0.000000</yVariant>
+        </VisualEffect.AddOperation>
+        <VisualEffect.GroundDirection InstanceId="{DCE9043B-112C-42CA-814A-C6FFAE1D9876}">
+            <OutputValue>{A5B49F76-9D97-4D2D-980B-241AD7DFEED7}</OutputValue>
+            <y>{EE04538E-F94D-49FA-A06B-7DFAA2248A92}, 5.000000</y>
+        </VisualEffect.GroundDirection>
+        <VisualEffect.RandomValue InstanceId="{A317223D-5540-446D-9BD7-028BC684F832}">
+            <OutputValue>{EE04538E-F94D-49FA-A06B-7DFAA2248A92}</OutputValue>
+            <MaxRandValue>{7804A5DF-0191-4B52-ABA5-B2D7947829E9}, 0.000000</MaxRandValue>
+            <RandSeed>{308C20AE-3F21-4EC6-A669-99C7801138C0}, 0.000000</RandSeed>
+        </VisualEffect.RandomValue>
+        <VisualEffect.GraphParameter InstanceId="{81496E39-4981-42B9-8D8A-DC4EA600EC83}">
+            <OutputValue>{F89895B9-AFBA-4DBF-A474-960F2763DEF5}</OutputValue>
+            <GraphParamName>AIRSPEED</GraphParamName>
+        </VisualEffect.GraphParameter>
     </WorldBase.Flight>
 </SimBase.Document>

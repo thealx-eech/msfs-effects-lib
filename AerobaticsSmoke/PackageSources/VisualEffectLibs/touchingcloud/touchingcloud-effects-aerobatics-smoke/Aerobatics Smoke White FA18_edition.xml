@@ -16,14 +16,8 @@
         <NodePosition>1120.000,-864.000</NodePosition>
         <NodeSize>768.000,200.000</NodeSize>
     </SimEdition.EditionInfo>
-    <SimEdition.EditionInfo RelatedInstanceId="{2CE66647-3970-4F09-890A-44F4BF3BC2BA}">
-        <NodePosition>872.000,-412.000</NodePosition>
-    </SimEdition.EditionInfo>
-    <SimEdition.EditionInfo RelatedInstanceId="{DFA36F70-20CB-4932-B536-0B92B97AF461}">
-        <NodePosition>1293.000,-404.000</NodePosition>
-    </SimEdition.EditionInfo>
     <SimEdition.EditionInfo RelatedInstanceId="{19F60A99-C06A-427E-A719-7EE5586D5430}">
-        <NodePosition>1576.000,-424.000</NodePosition>
+        <NodePosition>1345.000,-404.000</NodePosition>
     </SimEdition.EditionInfo>
     <SimEdition.EditionInfo RelatedInstanceId="{42CFCBAA-3A3C-4643-8ADB-4C9C7BCC5865}">
         <NodePosition>848.000,-480.000</NodePosition>
@@ -36,7 +30,7 @@
         <NodePosition>-1160.000,-1256.000</NodePosition>
     </SimEdition.EditionInfo>
     <SimEdition.EditionInfo RelatedInstanceId="{F1D0F1F7-C248-452F-B980-BCFD1745B1AA}">
-        <NodePosition>1093.000,424.000</NodePosition>
+        <NodePosition>939.000,408.000</NodePosition>
     </SimEdition.EditionInfo>
     <SimEdition.EditionInfo RelatedInstanceId="{50D03345-3F98-4486-8C54-30CFE94F0AEE}">
         <NodePosition>-640.000,-1192.000</NodePosition>
@@ -100,7 +94,7 @@
         <NodePosition>151.000,-164.000</NodePosition>
     </SimEdition.EditionInfo>
     <SimEdition.EditionInfo RelatedInstanceId="{21C61830-9F62-4DD3-A473-929A20E71FD9}">
-        <NodePosition>504.000,432.000</NodePosition>
+        <NodePosition>616.000,432.000</NodePosition>
     </SimEdition.EditionInfo>
     <SimEdition.EditionInfo RelatedInstanceId="{CCE42E9C-B8D2-43A8-BE4A-45BEB420468F}">
         <NodePosition>-519.000,-196.000</NodePosition>
@@ -157,5 +151,11 @@
     </SimEdition.EditionInfo>
     <SimEdition.EditionInfo RelatedInstanceId="{426E9AE1-B49D-464D-A18D-05EA1B5773D1}">
         <NodePosition>952.000,580.000</NodePosition>
+    </SimEdition.EditionInfo>
+    <SimEdition.EditionInfo RelatedInstanceId="{8B6CA26B-431B-4808-86D3-86171EE61E71}">
+        <NodePosition>932.000,-428.000</NodePosition>
+    </SimEdition.EditionInfo>
+    <SimEdition.EditionInfo RelatedInstanceId="{E360D857-8204-4FCA-974C-55B0013BF0F1}">
+        <NodePosition>1331.000,-1324.000</NodePosition>
     </SimEdition.EditionInfo>
 </SimBase.Document>
