@@ -1,0 +1,33 @@
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
+		<Component ID="NOZZLE_HEAT_FX_LEFT" node="FX_afterburner_left">
+			<UseTemplate Name="ASOBO_GT_FX">
+				<FX_GUID>{79D740B9-8DA5-40BC-9B34-C62A72564199}</FX_GUID>
+				<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+				<FX_CODE>(A:ENG N1 RPM:1, percent) 10 &gt;</FX_CODE>
+				<FX_GRAPH_PARAM_0>SIZE, 0.5</FX_GRAPH_PARAM_0>
+				<FX_GRAPH_PARAM_1>OPACITY, 0.25 (A:ENG N1 RPM:1, percent over 100) 0.5 pow *</FX_GRAPH_PARAM_1>
+				<FX_GRAPH_PARAM_2>RPM, (A:ENG N1 RPM:1, percent over 100) 0.5 pow (A:TURB ENG AFTERBURNER PCT ACTIVE:1, percent over 100) +</FX_GRAPH_PARAM_2>
+			</UseTemplate>
+		</Component>
+		
+		<Component ID="NOZZLE_HEAT_FX_RIGHT" node="FX_afterburner_right">
+			<UseTemplate Name="ASOBO_GT_FX">
+				<FX_GUID>{79D740B9-8DA5-40BC-9B34-C62A72564199}</FX_GUID>
+				<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+				<FX_CODE>(A:ENG N1 RPM:2, percent) 10 &gt;</FX_CODE>
+				<FX_GRAPH_PARAM_0>SIZE, 0.5</FX_GRAPH_PARAM_0>
+				<FX_GRAPH_PARAM_1>OPACITY, 0.25 (A:ENG N1 RPM:2, percent over 100) 0.5 pow *</FX_GRAPH_PARAM_1>
+				<FX_GRAPH_PARAM_2>RPM, (A:ENG N1 RPM:2, percent over 100) 0.5 pow (A:TURB ENG AFTERBURNER PCT ACTIVE:2, percent over 100) +</FX_GRAPH_PARAM_2>
+			</UseTemplate>
+		</Component>
+		
+		<Component ID="APU_HEAT_FX_" node="APU_nozzle">
+			<UseTemplate Name="ASOBO_GT_FX">
+				<FX_GUID>{79D740B9-8DA5-40BC-9B34-C62A72564199}</FX_GUID>
+				<FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+				<FX_CODE>(A:ENG N1 RPM:2, percent) 10 &gt;</FX_CODE>
+				<FX_GRAPH_PARAM_0>SIZE, 0.2</FX_GRAPH_PARAM_0>
+				<FX_GRAPH_PARAM_1>OPACITY, 0.1 (A:APU PCT RPM, percent over 100) 0.5 pow *</FX_GRAPH_PARAM_1>
+				<FX_GRAPH_PARAM_2>RPM, (A:APU PCT RPM, percent over 100) 0.5 pow</FX_GRAPH_PARAM_2>
+			</UseTemplate>
+		</Component>
