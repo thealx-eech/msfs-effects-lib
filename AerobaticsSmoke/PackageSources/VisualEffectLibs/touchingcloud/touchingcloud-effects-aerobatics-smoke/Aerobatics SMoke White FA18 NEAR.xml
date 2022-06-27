@@ -12,6 +12,7 @@
         <VisualEffect.Emitter InstanceId="{4B04DDAD-295E-4DC7-98C5-C26CE6BE8DCE}">
             <ParticleRate>{BD0139D2-2081-4599-AA08-22B8745C278F}, 0.000000</ParticleRate>
             <Capacity>1000.000</Capacity>
+			<MaxDistanceEmission>5000.000</MaxDistanceEmission>
             <ParticleInit>
                 <ObjectReference InstanceId="{E3C5ED24-FE95-4275-841F-67A6B0CFDB55}" id="BlockParticleInit"/>
             </ParticleInit>

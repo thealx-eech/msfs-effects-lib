@@ -3,7 +3,7 @@
 <SimBase.Document Type="AceXML" version="1,0">
     <Descr>AceXML Document</Descr>
     <WorldBase.Flight>
-        <VisualEffect.VisualEffect InstanceId="{4EF1F843-9C8E-4950-9EC2-463D810F2FE3}">
+        <VisualEffect.VisualEffect InstanceId="{57e16db7-ffce-4844-bb9b-78a923f073b8}">
             <Name>Aerobatics Smoke White</Name>
             <EmitterList>
                 <ObjectReference InstanceId="{9EA86BE2-530F-4480-B8CF-56CDB8618DD9}" id="Emitter"/>
@@ -45,7 +45,7 @@
             <ParticleRate>{00000000-0000-0000-0000-000000000000}, 0.200000</ParticleRate>
             <Capacity>3000.000</Capacity>
             <ParticleRateType>Distance</ParticleRateType>
-            <MaxDistanceEmission>5000.000</MaxDistanceEmission>
+            <MaxDistanceEmission>25000.000</MaxDistanceEmission>
             <ParticleInit>
                 <ObjectReference InstanceId="{02B44A16-FA54-4A63-AB75-B383E9828416}" id="BlockParticleInit"/>
             </ParticleInit>
