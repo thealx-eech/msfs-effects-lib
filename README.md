@@ -26,7 +26,7 @@ or from effect XML file - InstanceId of VisualEffect.VisualEffect node (very fir
 3.1 Copy "VisualEffectLibs" folder into your aircraft folder, remove effects you don't need, regenerate JSON files
 4. You can load project in MSFS Effects Editor to apply labels replacement and effect parameters adjustment, then build package and repeate step #3
 5. Rename "touchingcloud" folder, to avoid conflicts with other aircraft using same effects pack
-6. It is also recommended to update effect GUIDs and rebuild package
+6. You also have to update effect GUIDs and rebuild package, otherwise your add-on will conflict with other add-ons which may use same effect with same GUID
 
 
 Effects editor tutorials:
